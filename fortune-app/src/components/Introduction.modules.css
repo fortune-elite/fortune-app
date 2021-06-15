@@ -1,8 +1,9 @@
 .introduction {
-    display: flex;
-    justify-content: center;
-    margin: 0 10%;
-    background-color: rgba(194,248,250,255);
+    display: block;
+    text-align: center;
+    margin: 5% 14% 0 14%;
+    
+    border-radius: 10px;
 }
 .introduction__title {
     color: rgba(32,62,134,255);
@@ -11,19 +12,16 @@
 
 .introduction__upper {
     text-align: center;
-
+    background-color: rgba(194,248,250,255);
+    border-radius: 10px;
 }
 .introduction__upper section {
     text-align: center;
     color:rgba(51,65,74,255);
     font-weight: 600;
-    font-size: 32px;
-    padding: 0 25%;
-    font-size: 20px;
+    font-size: 25px;
 }
-.introduction__lower {
 
-}
 .btn__create-account {
     margin: 1.5rem 0;
     align-items: center;
@@ -31,24 +29,52 @@
     background-color: rgb(23, 23, 109);
     padding: 15px 20px;
     font-size: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .download-app {
-    margin-bottom: 2rem;
     
+    padding-bottom:3rem
 }
 .ios, .android {
-    justify-content: center;
-    align-items: center;
     display: inline-block;
-    background-color: rgb(68, 66, 66);
-    width: 15rem;
-    height: 5rem;
+    background-color: rgb(27, 26, 26);
+    width: 16rem;
+    padding: 0.5rem;
     color: white;
     border-radius: 10px;
+    
 
 }
 .ios {
-    margin: 1rem;
+    margin-right: 2rem;
+}
+
+
+.ios section {
+    display: inline-block;
+    color: white;
+    text-align: left;
+} 
+.android section {
+    display: inline-block;
+    color: white;
+}
+
+.ios section span {
+    display: block;
+}
+
+.android section span {
+    display: block;
+}
+.lower-one {
+   color: rgb(23, 23, 109);
+   font-size: 28px;
+   font-weight: 700;
+}
+.lower-two {
+    color: rgb(166, 166, 187);
+    font-size: 28px;
+    font-weight: 500;
 }

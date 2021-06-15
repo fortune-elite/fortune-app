@@ -17,7 +17,7 @@ header {
 }
 .right {
     display: inline-block;
-    margin-left: 37vw;
+    margin-left: 43vw;
 
     
 }
@@ -30,7 +30,7 @@ ul li {
     margin-left: 1.5rem;
     color: rgba(32,62,134,255);
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 ul li a {
