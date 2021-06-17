@@ -4,7 +4,10 @@ const Navbar = () => {
     return (
         <header>
             <div className="logo">
-                <img  className="logo__img" src="logo.png" alt="Fortune logo"/>Fortune
+                <span className="logo__img">
+                <img   src="logo.png" alt="Fortune logo" width={80}/>
+                </span>
+                Fortune
             </div>
             <ul className="right">
                 <li><a href="#">Save</a></li>

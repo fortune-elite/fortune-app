@@ -30,6 +30,7 @@ const Introduction = () => {
                 </div>
             </section>
         </div>
+        <br/>
         <div className="introduction__lower">
             <p className="lower-one">Fortune, the solution towards a better financial future </p>
             <p className="lower-two">We help you save money without putting forth a lot of effort with <br></br> computerized savings </p>

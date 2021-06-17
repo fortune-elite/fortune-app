@@ -1,0 +1,46 @@
+.cards{
+    height: 50vh;
+    background-color: var(--mainBackground);
+    font-size: 0.8rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cardSky{
+    width: 15vw;
+    height: 25vh;
+    background-color: var(--SkyBlueColor);
+    color: var(--mainBackground);
+    font-size: 0.8rem;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 var(--SkyBlueColor), 0 6px 20px 0 #FEFCFB;
+
+}
+
+.cardDark{
+    width: 15vw;
+    height: 25vh;
+    background-color: var(--BlackColor);
+    color: var(--mainBackground);
+    font-size: 0.8rem;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 var(--BlackColor), 0 6px 20px 0 #FEFCFB;
+
+
+}
+
+.cardBlue{
+    width: 15vw;
+    height: 25vh;
+    background-color: var(--DarkBlueColor);
+    color: var(--mainBackground);
+    font-size: 0.8rem;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 var(--DarkBlueColor), 0 6px 20px 0 #FEFCFB;
+
+}
+

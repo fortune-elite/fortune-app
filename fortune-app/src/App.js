@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar'
 import Introduction from './components/Introduction'
+import Card from './components/Cards'
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Introduction/>
+      <Card/>
     </div>
   );
 }
