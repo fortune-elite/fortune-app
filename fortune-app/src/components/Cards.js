@@ -26,6 +26,7 @@ const Card = () => {
 
                 </div>
             </div>
+            <h2>Start Banking at Ease &gt;</h2>
         </div>
      );
 }

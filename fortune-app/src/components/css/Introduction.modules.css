@@ -36,6 +36,7 @@
     background-color: var(--DarkBlueColor);
     padding: 15px 20px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .download-app {
@@ -44,10 +45,10 @@
 }
 .ios, .android {
     display: inline-block;
-    background-color: rgb(27, 26, 26);
+    background-color: var(--BlackColor);
     width: 16rem;
     padding: 0.5rem;
-    color: white;
+    color: var(--mainBackground);
     border-radius: 10px;
     
 
@@ -59,12 +60,12 @@
 
 .ios section {
     display: inline-block;
-    color: white;
+    color: var(--mainBackground);
     text-align: left;
 } 
 .android section {
     display: inline-block;
-    color: white;
+    color:var(--mainBackground);
 }
 
 .ios section span {
