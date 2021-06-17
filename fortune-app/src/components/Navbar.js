@@ -1,10 +1,10 @@
-import './Navbar.modules.css'
+import './css/Navbar.modules.css'
 
 const Navbar = () => {
     return (
         <header>
             <div className="logo">
-                <span className="logo__img"><img src="logo192.png" alt="Fortune logo" width={50}/></span>Fortune
+                <img  className="logo__img" src="logo.png" alt="Fortune logo"/>Fortune
             </div>
             <ul className="right">
                 <li><a href="#">Save</a></li>
