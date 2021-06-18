@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: poppins, sans-serif;
+    src: url(/font/Poppins-SemiBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    margin-top: 30px;
+    margin-left: 525px;
+    font: 600 normal 54px poppins;
+    color: #203E86;
+
+}
+
+.d-inline-block{
+   padding-left: 65px;
+   
+}
+
+.create-acc{
+    background-color: #203E86;
+    color: white;
+    border-radius: 10px 10px;
+    padding: 30px;
+    position: absolute;
+    width: 500px;
+    height: 900px;
+    left: 470px;
+    top: 213px;
+}
+
+.create-main{
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.create-main > h1{
+    font: 600 normal 34px 51px poppins;
+}
+
+.create-main > p {
+    opacity: 70%;
+    font: 600 normal 15px 22.5px poppins;
+}
+
+.form-control{
+    background-color: rgba(211, 211, 211, 0.5);
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.btn-sign{
+    background-color: #fff;
+    color:#222C37;
+    font: 600 normal 26px poppins;
+    border: 1px solid;
+    margin-top: 30px;
+}
+
+.owns-acc{
+    font: 600 normal 20px poppins;
+    text-align: center;
+    padding-left: 2rem;
+    margin-top: 1000px;
+}
+
+.label{
+    font-family: poppins, sans-serif;
+}
