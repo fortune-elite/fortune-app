@@ -12,16 +12,16 @@ const Introduction = () => {
             <section className="download-app">
                 <div className="ios">
                     <section>
-                        <img src="logo192.png" width={50} alt="logo" />
+                    <i className ="fab fa-apple"></i>
                     </section>
                     <section>
                         Download from <br></br>
-                        <span>App Store</span>
+                        <span>Apple Store</span>
                     </section>
                 </div>
                 <div className="android">
                     <section>
-                        <img src="logo192.png" width={50} alt="logo"/>
+                    <i className ="fab fa-google-play"></i>
                     </section>
                     <section>
                         <span>Get it on </span>

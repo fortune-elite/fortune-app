@@ -6,27 +6,34 @@
 
 .container{
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
 }
 
 .cardSky{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     width: 15vw;
+    padding: 1rem 1rem 1rem 1rem;
     height: 30vh;
-    background-color: var(--SkyBlueColor);
+    background-color: var(--DarkSkyBlue);
     color: var(--mainBackground);
-    font-size: 0.8rem;
     font-weight: bold;
-    box-shadow: 0 4px 8px 0 var(--SkyBlueColor), 0 6px 20px 0 #FEFCFB;
+    box-shadow: 0 4px 8px 0 var(--DarkSkyBlue), 0 6px 20px 0 #FEFCFB;
 
 }
 
 .cardDark{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
     width: 15vw;
     height: 30vh;
     background-color: var(--BlackColor);
     color: var(--mainBackground);
-    font-size: 0.8rem;
     font-weight: bold;
     box-shadow: 0 4px 8px 0 var(--BlackColor), 0 6px 20px 0 #FEFCFB;
 
@@ -34,14 +41,40 @@
 }
 
 .cardBlue{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
     width: 15vw;
     height: 30vh;
     background-color: var(--DarkBlueColor);
     color: var(--mainBackground);
-    font-size: 0.8rem;
     font-weight: bold;
     box-shadow: 0 4px 8px 0 var(--DarkBlueColor), 0 6px 20px 0 #FEFCFB;
 
+}
+
+.cardDark:hover{
+    cursor: pointer;
+    width: 16vw;
+    height: 31vh;
+    opacity: 0.8;
+
+}
+
+.cardSky:hover{
+    cursor: pointer;
+    width: 16vw;
+    height: 31vh;
+    opacity: 0.8;
+}
+
+.cardBlue:hover {
+    cursor: pointer;
+    width: 16vw;
+    height: 31vh;
+    opacity: 0.8;
 }
 
 .cards h2{
@@ -49,3 +82,12 @@
     margin-top: 3rem;
 }
 
+.p{
+    font-size: 0.8rem;
+}
+
+.card-icons {
+    font-size: 2.8rem;
+    margin-left: 80%;
+    
+}

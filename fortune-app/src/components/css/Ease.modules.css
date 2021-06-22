@@ -2,3 +2,9 @@
     height:100vh ;
     background-color: var(--SkyBlueColor);
 }
+
+.easecon{
+    font-size: 6rem;
+    margin: 1% 10% 1% 45%;
+
+}
