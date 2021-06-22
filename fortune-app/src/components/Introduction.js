@@ -12,7 +12,7 @@ const Introduction = () => {
             <section className="download-app">
                 <div className="ios">
                     <section>
-                        <img src="logo192.png" width={50}></img>
+                        <img src="logo192.png" width={50} alt="logo" />
                     </section>
                     <section>
                         Download from <br></br>
@@ -21,7 +21,7 @@ const Introduction = () => {
                 </div>
                 <div className="android">
                     <section>
-                        <img src="logo192.png" width={50}></img>
+                        <img src="logo192.png" width={50} alt="logo"/>
                     </section>
                     <section>
                         <span>Get it on </span>
@@ -35,7 +35,6 @@ const Introduction = () => {
             <p className="lower-one">Fortune, the solution towards a better financial future </p>
             <p className="lower-two">We help you save money without putting forth a lot of effort with <br></br> computerized savings </p>
         </div>
-
      </div>
 
     )
