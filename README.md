@@ -1,3 +1,3 @@
-# fortune(Building For Africa)
+# Fortune(Building For Africa)
 Coming Soon 
 
