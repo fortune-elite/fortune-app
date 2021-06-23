@@ -34,7 +34,7 @@ const Card = () => {
                         Invest with us at low risks
                     </div>
                     <div>
-                        <i class="fas fa-hand-holding-water card-icons"></i>
+                        <i className="fas fa-hand-holding-water card-icons"></i>
                     </div>
                 </div>
                 <div className="cardBlue">
