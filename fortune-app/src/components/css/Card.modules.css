@@ -1,5 +1,5 @@
 .cards{
-    height: 45vh;
+    height: 50vh;
     background-color: var(--mainBackground);
     font-size: 0.8rem;
 }
@@ -14,9 +14,9 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 15vw;
+    width: 18vw;
     padding: 1rem 1rem 1rem 1rem;
-    height: 30vh;
+    height: 35vh;
     background-color: var(--DarkSkyBlue);
     color: var(--mainBackground);
     font-weight: bold;
@@ -30,8 +30,8 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem 1rem 1rem 1rem;
-    width: 15vw;
-    height: 30vh;
+    width: 18vw;
+    height: 35vh;
     background-color: var(--BlackColor);
     color: var(--mainBackground);
     font-weight: bold;
@@ -46,8 +46,8 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem 1rem 1rem 1rem;
-    width: 15vw;
-    height: 30vh;
+    width: 18vw;
+    height: 35vh;
     background-color: var(--DarkBlueColor);
     color: var(--mainBackground);
     font-weight: bold;
@@ -57,23 +57,23 @@
 
 .cardDark:hover{
     cursor: pointer;
-    width: 16vw;
-    height: 31vh;
+    width: 19vw;
+    height: 36vh;
     opacity: 0.8;
 
 }
 
 .cardSky:hover{
     cursor: pointer;
-    width: 16vw;
-    height: 31vh;
+    width: 19vw;
+    height: 36vh;
     opacity: 0.8;
 }
 
 .cardBlue:hover {
     cursor: pointer;
-    width: 16vw;
-    height: 31vh;
+    width: 19vw;
+    height: 36vh;
     opacity: 0.8;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .p{
-    font-size: 0.8rem;
+    font-size: 1.1rem;
 }
 
 .card-icons {
@@ -94,7 +94,7 @@
 
 @media screen and (max-width:1024px){
     .cards{
-        height: 45vh;
+        height: 25vh;
         background-color: var(--mainBackground);
         font-size: 0.8rem;
     }
@@ -109,9 +109,9 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        width: 15vw;
+        width: 18vw;
         padding: 1rem 1rem 1rem 1rem;
-        height: 30vh;
+        height: 15vh;
         background-color: var(--DarkSkyBlue);
         color: var(--mainBackground);
         font-weight: bold;
@@ -125,8 +125,8 @@
         justify-content: space-evenly;
         align-items: center;
         padding: 1rem 1rem 1rem 1rem;
-        width: 15vw;
-        height: 30vh;
+        width: 18vw;
+        height: 15vh;
         background-color: var(--BlackColor);
         color: var(--mainBackground);
         font-weight: bold;
@@ -141,8 +141,8 @@
         justify-content: space-evenly;
         align-items: center;
         padding: 1rem 1rem 1rem 1rem;
-        width: 15vw;
-        height: 30vh;
+        width: 18vw;
+        height: 15vh;
         background-color: var(--DarkBlueColor);
         color: var(--mainBackground);
         font-weight: bold;
@@ -209,7 +209,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        width: 75vw;
+        width: 85vw;
         margin: 1rem 1rem 1rem 1rem ;
         padding: 1rem 1rem 1rem 1rem;
         height: 30vh;
@@ -227,7 +227,7 @@
         align-items: center;
         margin: 1rem 1rem 1rem 1rem ;
         padding: 1rem 1rem 1rem 1rem;
-        width: 75vw;
+        width: 85vw;
         height: 30vh;
         background-color: var(--BlackColor);
         color: var(--mainBackground);
@@ -244,7 +244,7 @@
         align-items: center;
         margin: 1rem 1rem 1rem 1rem;
         padding: 1rem 1rem 1rem 1rem;
-        width: 75vw;
+        width: 85vw;
         height: 30vh;
         background-color: var(--DarkBlueColor);
         color: var(--mainBackground);
@@ -281,12 +281,12 @@
     }
     
     .p{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     
     .card-icons {
-        font-size: 2.8rem;
-        margin-left: 80%;
+        font-size: 3rem;
+        margin-left: 90%;
         
     }
 
