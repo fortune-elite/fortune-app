@@ -12,7 +12,7 @@ const Introduction = () => {
             <section className="download-app">
                 <div className="ios">
                     <section>
-                    <i className ="fab fa-apple"></i>
+                    <i className ="fab fa-apple apple"></i>
                     </section>
                     <section>
                         Download from <br></br>
@@ -21,7 +21,7 @@ const Introduction = () => {
                 </div>
                 <div className="android">
                     <section>
-                    <i className ="fab fa-google-play"></i>
+                    <i className ="fab fa-google-play playstore"></i>
                     </section>
                     <section>
                         <span>Get it on </span>
