@@ -1,13 +1,15 @@
 import './css/Navbar.modules.css'
+import {AiOutlineMenu} from 'react-icons/ai'
 
 const Navbar = () => {
     return (
         <header>
             <div className="logo">
-                <span className="logo__img">
-                <img   src="logo.png" alt="Fortune logo" width={80}/>
+               
+                <span >
+                   Fortune  
                 </span>
-                Fortune
+                
             </div>
             <ul className="right">
                 <li><a href="#">Save</a></li>
@@ -15,7 +17,9 @@ const Navbar = () => {
                 <li><a href="#">FAQs</a></li>
                 <li><a href = "#">Login</a></li>
                 <li className="signup"><a href="#">Sign Up</a></li>
+                
             </ul>
+            <AiOutlineMenu className='right-menu'/>
         </header>
     )
         
