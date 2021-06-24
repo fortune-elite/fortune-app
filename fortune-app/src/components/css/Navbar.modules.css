@@ -1,17 +1,25 @@
 header {
-    height: 8vh;
+    /*height: 8vh;*/
     background-color: var(--mainBackground);
 }
 .logo {
     display: inline-block;
     color: var(--DarkBlueColor) ;
-    font-size: 1.4rem;
-    font-weight: 700;
+    
 }
 
 .logo__img {
-    margin-top: -1rem;
+   
+    display: inline-block;
+    height: 2rem;
+    width: 8rem;
 
+}
+.logo span {
+    display: inline-block;
+    padding: 1rem 0 0 5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 
@@ -42,13 +50,16 @@ ul a:hover {
 
 .signup {
     width: 10vw;
-    height: 7vh;
     text-align: center;
     background-color:var(--DarkBlueColor);
     border-radius:5px ;
     border-spacing: 1rem;
     padding: 0.2rem;
     
+}
+
+.right-menu {
+    display: none
 }
 .signup a {
    color: var(--mainBackground); 
@@ -57,4 +68,24 @@ ul a:hover {
     text-decoration: none;
     width: 10rem;
     text-align: center;
+}
+
+
+@media screen and (max-width:768px) {
+    .right-menu {
+        display: block;
+        position: absolute;
+        top: 2%;
+        right: 5%;
+        font-size: 1.5rem;
+    }
+    .right {
+        display: none;
+    }
+    .logo span {
+        color: var(--DarkBlueColor) ;
+        font-size: 1rem;
+        font-weight: 700;
+        padding-left: 2rem;
+    }
 }
