@@ -3,7 +3,7 @@ import {AiOutlineMenu} from 'react-icons/ai'
 
 const Navbar = () => {
     return (
-        <header>
+        <header> 
             <div className="logo">
                
                 <span >

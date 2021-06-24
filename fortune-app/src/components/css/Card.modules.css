@@ -152,23 +152,23 @@
     
     .cardDark:hover{
         cursor: pointer;
-        width: 16vw;
-        height: 31vh;
+        width: 19vw;
+        height: 16vh;
         opacity: 0.8;
     
     }
     
     .cardSky:hover{
         cursor: pointer;
-        width: 16vw;
-        height: 31vh;
+        width: 19vw;
+        height: 16vh;
         opacity: 0.8;
     }
     
     .cardBlue:hover {
         cursor: pointer;
-        width: 16vw;
-        height: 31vh;
+        width: 19vw;
+        height: 16vh;
         opacity: 0.8;
     }
     
