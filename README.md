@@ -1,1 +1,3 @@
-# fortune-app
+# Fortune(Building For Africa)
+Coming Soon 
+

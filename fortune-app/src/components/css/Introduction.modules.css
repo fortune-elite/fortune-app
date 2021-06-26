@@ -1,0 +1,396 @@
+.introduction {
+    /*height: 110vh;*/
+    display: block;
+    margin: 5% 14% 0 18%;
+    text-align: center;
+    background-color: var(--mainBackground);
+}
+.introduction__title {
+    color: var(--DarkBlueColor);
+    text-align: center; 
+    font-size: 1.3rem;
+    font-weight: bolder;
+
+}
+
+.introduction__upper {
+    text-align: center;
+    background-color: var(--SkyBlueColor);
+
+    width: 60vw;
+   /* height: 78vh;*/
+}
+.introduction__upper section {
+    text-align: center;
+    color:var(--BlackColor);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.btn__create-account {
+    border: none;
+    margin: 1.5rem 0;
+    align-items: center;
+    color:var(--mainBackground);
+    background-color: var(--DarkBlueColor);
+    padding: 15px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.download-app {
+    
+    padding-bottom:3rem
+}
+.ios, .android {
+    display: inline-block;
+    background-color: var(--BlackColor);
+    width: 16rem;
+    padding: 0.5rem;
+    color: var(--mainBackground);
+    border-radius: 10px;
+    
+
+}
+.ios {
+    margin-right: 2rem;
+}
+
+
+.ios section {
+    display: inline-block;
+    color: var(--mainBackground);
+    text-align: left;
+} 
+.android section {
+    display: inline-block;
+    color:var(--mainBackground);
+}
+
+.ios section span {
+    display: block;
+}
+
+.android section span {
+    display: block;
+}
+.lower-one {
+   color:var(--DarkBlueColor);
+   font-size: 1.3rem;
+   font-weight: 700;
+}
+.lower-two {
+    color: var(--DarkBlueColor);
+    opacity: 0.8;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.fa-apple{
+    font-size: 3.0rem;
+}
+
+.fa-google-play{
+    font-size: 3.0rem;
+}
+
+@media screen and (max-width:1024px){
+    .introduction {
+        height: 65vh;
+        display: block;
+        margin: 5% 14% 0 18%;
+    
+        text-align: center;
+        background-color: var(--mainBackground);
+    }
+    .introduction__title {
+        color: var(--DarkBlueColor);
+        text-align: center; 
+        font-size: 1.3rem;
+        font-weight: bolder;
+    
+    }
+    
+    .introduction__upper {
+        text-align: center;
+        background-color: var(--SkyBlueColor);
+    
+        width: 60vw;
+    
+    }
+    .introduction__upper section {
+        text-align: center;
+        color:var(--BlackColor);
+        font-weight: 600;
+        font-size: 25px;
+    }
+    
+    .btn__create-account {
+        border: none;
+        margin: 1.5rem 0;
+        align-items: center;
+        color:var(--mainBackground);
+        background-color: var(--DarkBlueColor);
+        padding: 15px 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .download-app {
+        
+        padding-bottom:3rem
+    }
+    .ios, .android {
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 16rem;
+        padding: 0.5rem;
+        color: var(--mainBackground);
+        border-radius: 10px;
+        
+    
+    }
+    .ios {
+        margin-right: 2rem;
+    }
+    
+    
+    .ios section {
+        display: inline-block;
+        color: var(--mainBackground);
+        text-align: left;
+    } 
+    .android section {
+        display: inline-block;
+        color:var(--mainBackground);
+    }
+    
+    .ios section span {
+        display: block;
+    }
+    
+    .android section span {
+        display: block;
+    }
+    .lower-one {
+       color:var(--DarkBlueColor);
+       font-size: 1.3rem;
+       font-weight: 700;
+    }
+    .lower-two {
+        color: var(--DarkBlueColor);
+        opacity: 0.8;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    
+    .fa-apple{
+        font-size: 3.0rem;
+    }
+    
+    .fa-google-play{
+        font-size: 3.0rem;
+    }
+
+}
+
+@media screen and (max-width:480px){
+    .introduction {
+        height: 80vh;
+        display: block;
+        margin: 5% 4% 0 4%;
+    
+        text-align: center;
+        background-color: var(--mainBackground);
+    }
+
+    .introduction__upper {
+        text-align: center;
+        width: 90%;
+        margin: 0;
+    }
+    .introduction__title {
+        color: var(--DarkBlueColor);
+        text-align: center; 
+        font-size: 1.1rem;
+        font-weight: bolder;
+    
+    }
+    
+    
+    .introduction__upper section {
+        text-align: center;
+        color:var(--BlackColor);
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+    
+    .btn__create-account {
+        border: none;
+        margin: 1.5rem 0;
+        align-items: center;
+        color:var(--mainBackground);
+        background-color: var(--DarkBlueColor);
+        padding: 15px 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .download-app {
+        
+        padding-bottom:3rem
+    }
+    .ios, .android {
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 16rem;
+        padding: 0.5rem;
+        color: var(--mainBackground);
+        border-radius: 10px;
+        
+    
+    }
+    .ios {
+        margin-right: 2rem;
+    }
+    
+    
+    .ios section {
+        display: inline-block;
+        color: var(--mainBackground);
+        text-align: left;
+    } 
+    .android section {
+        display: inline-block;
+        color:var(--mainBackground);
+    }
+    
+    .ios section span {
+        display: block;
+    }
+    
+    .android section span {
+        display: block;
+    }
+    .lower-one {
+       color:var(--DarkBlueColor);
+       font-size: 1.3rem;
+       font-weight: 700;
+    }
+    .lower-two {
+        color: var(--DarkBlueColor);
+        opacity: 0.8;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    
+    .fa-apple{
+        font-size: 3.0rem;
+    }
+    
+    .fa-google-play{
+        font-size: 3.0rem;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    .introduction {
+        margin:0 ;
+        padding:4% 10%;
+    }
+    .introduction__title {
+        font-size: 1rem;
+    }
+
+    .introduction__upper {
+        text-align: center;
+        background-color: var(--SkyBlueColor);
+        
+        width: 80vw;
+    }
+
+    .introduction__upper section {
+        text-align: center;
+        color:var(--BlackColor);
+        font-weight: 600;
+        padding-top: 1rem;
+        font-size: 0.7rem;
+    }
+
+    .btn__create-account {
+        margin: 0.9rem 0;
+        align-items: center;
+        color:var(--mainBackground);
+        background-color: var(--DarkBlueColor);
+        padding: 10px 10px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+    .download-app {
+        
+        padding-bottom:0.2rem;
+        transform: translateY(-30px);
+    }
+    .ios, .android {
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 43vw;
+        margin: 1rem;
+        padding: 0;
+        color: var(--mainBackground);
+        border-radius: 10px;
+        font-size: 0.7rem;
+        
+    
+    }
+    .ios {
+        margin-right: 0;
+    }
+    
+    
+    .ios section {
+        display: inline-block;
+        color: var(--mainBackground);
+        text-align: left;
+    } 
+    .android section {
+        display: inline-block;
+        color:var(--mainBackground);
+    }
+    .apple, .playstore {
+        height: 0.6rem;
+    }
+    
+    .ios section span {
+        display: block;
+    }
+    
+    .android section span {
+        display: block;
+    }
+    .lower-one {
+       color:var(--DarkBlueColor);
+       font-size: 1rem;
+       font-weight: 700;
+    }
+    .lower-two {
+        color: var(--DarkBlueColor);
+        opacity: 0.8;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    
+    .fa-apple{
+        font-size: 3.0rem;
+    }
+    
+    .fa-google-play{
+        font-size: 3.0rem;
+    }
+
+
+}
+

@@ -1,10 +1,16 @@
+import Navbar from './components/Navbar'
+import Introduction from './components/Introduction'
+import Card from './components/Cards'
+import Ease from './components/Ease'
 
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="App__name">Fortune App</h1>
+      <Navbar/>
+      <Introduction/>
+      <Card/>
+      <Ease/>
     </div>
   );
 }

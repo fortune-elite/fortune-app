@@ -1,0 +1,114 @@
+.Ease{
+    height: 80vh;
+    background-color: var(--SkyBlueColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.easecon{
+    font-size: 5rem;
+    margin-left: 25%;
+    margin-bottom: 1%;
+    color: var(--DarkBlueColor);
+}
+
+.h2{
+    font-size: 1rem;
+    font-weight:900;
+    color: var(--DarkBlueColor);
+}
+
+
+.Ease h3{
+    color: var(--DarkBlueColor);
+    font-weight: bolder;
+    margin-left: 30%;
+    
+}
+
+.Ease p{
+    color: var(--BlackColor);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:1024px){
+    .Ease{
+        height:40vh ;
+        background-color: var(--SkyBlueColor);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    
+    .easecon{
+        font-size: 5rem;
+        margin-left: 25%;
+        margin-bottom: 1%;
+        color: var(--DarkBlueColor);
+    }
+    
+    .h2{
+        font-size: 1rem;
+        font-weight:900;
+        color: var(--DarkBlueColor);
+    }
+    
+    
+    .Ease h3{
+        color: var(--DarkBlueColor);
+        font-weight: bolder;
+        margin-left: 30%;
+        
+    }
+    
+    .Ease p{
+        color: var(--BlackColor);
+        font-weight: bold;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:480px){
+    .Ease{
+        height:110vh ;
+        background-color: var(--SkyBlueColor);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1% 1% 1% 10%;
+    }
+    
+    
+    .easecon{
+        font-size: 5rem;
+        margin-left: 25%;
+        margin-bottom: 1%;
+        color: var(--DarkBlueColor);
+    }
+    
+    .h2{
+        font-size: 1rem;
+        font-weight:900;
+        color: var(--DarkBlueColor);
+    }
+    
+    
+    .Ease h3{
+        color: var(--DarkBlueColor);
+        font-weight: bolder;
+        margin-left: 10%;
+        
+    }
+    
+    .Ease p{
+        color: var(--BlackColor);
+        font-weight: bold;
+        font-size: 1rem;
+    }
+}
