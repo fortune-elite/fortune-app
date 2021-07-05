@@ -29,7 +29,7 @@ const CallToAction = () => {
                 </div>
             </section>
             <div className="signing__up">
-                <p className="input__p">Sign up for free. Start investing today</p>
+                <p className="input__p">Sign up for free.<br></br> Start investing<br></br> today</p>
                 <div className="input__div">
                     <input type="text" placeholder="Your email..." id="email"/>
                     <button>signup for free</button>
