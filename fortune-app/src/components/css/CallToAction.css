@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit");
+
+.CallToAction {
+    text-align: center;
+    padding:4rem 6rem;
+    font-weight: 700;
+    
+}
+
+.CallToAction h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Kanit";
+    letter-spacing: 2px;
+}
+
+.CallToAction p {
+    color: rgb(105, 104, 104);
+}
+.signing__up {
+    background: var(--DarkBlueColor);
+    padding: 3rem;
+}
+
+.input__p {
+    display: inline-block;
+    width: 50%;
+    background-color: red;
+}
+
+#email {
+    border: none;
+    background: transparent;
+}
+::placeholder {
+    color: white;
+    font-size: 25px;
+}
+
+.input__div {
+    background: rgb(113, 108, 160);
+    width: 50%;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.input__div button {
+    padding: 1.1rem 0.8rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin: 0.3rem;
+    border: none;
+}
+.signing__up p {
+    display: inline-block;
+    width: 70%;
+}
