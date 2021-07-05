@@ -1,5 +1,6 @@
 .security{
     width:130px;
+    padding-left: 40%;
     
 }
 
@@ -7,6 +8,10 @@
     color:black;  
 }
 
+.mt-5 {
+    text-align: center;
+    padding: 2rem;
+}
 .mt-6{
     margin-top:80px;
 }

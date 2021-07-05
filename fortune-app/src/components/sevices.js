@@ -1,9 +1,9 @@
 
-/*import {Container, Button} from 'react-bootstrap';
+import {Container, Button} from 'react-bootstrap';
 import {BsShieldLock} from 'react-icons/bs';
 import {BsFillSquareFill} from 'react-icons/bs';
 import {IconContext} from 'react-icons';
-import './sevices.css';*/
+import './css/sevices.css';
 
 const Services = () => {
  return(

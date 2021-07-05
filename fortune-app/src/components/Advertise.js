@@ -7,7 +7,7 @@ const Advertise = () => {
     return(
         <div className="advertise">
             <section className="section1">
-                <img src="https://img.freepik.com/free-photo/beautiful-muslim-woman-advertises-modern-gadget-holds-smart-phone-device-with-blank-screen-your-advertisement-wears-traditional-veil-head_273609-27064.jpg?size=626&ext=jpg" alt="advertisement image" />
+                <img src="https://img.freepik.com/free-photo/beautiful-muslim-woman-advertises-modern-gadget-holds-smart-phone-device-with-blank-screen-your-advertisement-wears-traditional-veil-head_273609-27064.jpg?size=626&ext=jpg" alt="advertisement pic" />
             </section>
 
             <section className="section2">
