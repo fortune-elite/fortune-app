@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Introduction from './components/Introduction'
 import Card from './components/Cards'
 import Ease from './components/Ease'
+import Advertise from './components/Advertise'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Introduction/>
       <Card/>
       <Ease/>
+      <Advertise/>
     </div>
   );
 }
