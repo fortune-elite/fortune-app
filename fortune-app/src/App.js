@@ -3,6 +3,7 @@ import Introduction from './components/Introduction'
 import Card from './components/Cards'
 import Ease from './components/Ease'
 import Advertise from './components/Advertise'
+import CallToAction from './components/CallToAction'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Card/>
       <Ease/>
       <Advertise/>
+      <CallToAction/>
     </div>
   );
 }
