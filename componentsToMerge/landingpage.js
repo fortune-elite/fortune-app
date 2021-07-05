@@ -1,5 +1,5 @@
 import React from 'react';
-import Services from '../../components/services/sevices.js';
+import Services from './sevices';
 
 const Landingpage = () => {
     return(
