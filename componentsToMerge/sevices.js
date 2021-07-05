@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {Container, Button} from 'react-bootstrap';
 import {BsShieldLock} from 'react-icons/bs';
 import {BsFillSquareFill} from 'react-icons/bs';
