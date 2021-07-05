@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  /* Colors */
+  --mainBackground: #FEFCFB;
+  --DarkBlueColor: #203E86;
+  --BlackColor: #312F2F;
+  --SkyBlueColor: #C2F8FA;
+  --DarkSkyBlue: #00D3FF;
+}
