@@ -5,17 +5,25 @@
     background:rgb(113, 206, 212);
     width: 0rem;
     height: 0rem;
-    z-index: 3;
+    /*z-index: 3;*/
     overflow: hidden;
     transition: 900ms;
 
 }
+
 .MenuBar.active {
     transition: 900ms;
     width: 40%;
     height: 40%;
 }
 
+.MenuBar button {
+    padding-top: 5%;
+    margin-left:80% ;
+    height: 3rem;
+    border: none;
+    background: transparent;
+}
 .right-menu {
     display: none
 }
