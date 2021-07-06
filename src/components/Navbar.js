@@ -1,7 +1,14 @@
 import './css/Navbar.modules.css'
 import {AiOutlineMenu} from 'react-icons/ai'
+import MenuBar from './MenuBar'
+import { useState } from 'react';
+
 
 const Navbar = () => {
+
+    const [menuBar, setMenuBar] = useState(false);
+
+    const showMenuBar = () => setMenuBar((prevState) => !prevState)
     return (
         <header> 
             <div className="logo">
@@ -19,7 +26,8 @@ const Navbar = () => {
                 <li className="signup"><a href="#">Sign Up</a></li>
                 
             </ul>
-            <AiOutlineMenu className='right-menu'/>
+            {!menuBar && <AiOutlineMenu className='right-menu'onClick={showMenuBar}/>}
+            {menuBar && <MenuBar onClick={showMenuBar}/>}
         </header>
     )
         
