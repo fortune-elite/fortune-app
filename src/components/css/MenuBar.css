@@ -4,7 +4,7 @@
     top: 0;
     background:rgb(113, 206, 212);
     width: 0rem;
-    height: 0rem;
+    height: 40%;
     /*z-index: 3;*/
     overflow: hidden;
     transition: 900ms;
@@ -13,13 +13,25 @@
 
 .MenuBar.active {
     transition: 900ms;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+}
+
+.drop {
+    text-align: center;
+}
+
+.drop li {
+    display: block;
+    text-align: start;
+    color: rgb(17, 31, 34);
+    font-size: 20px;
+    padding: 0.5rem;
+
 }
 
 .MenuBar button {
-    padding-top: 5%;
-    margin-left:80% ;
+    padding-top: 3%;
+    margin-left:70% ;
     height: 3rem;
     border: none;
     background: transparent;

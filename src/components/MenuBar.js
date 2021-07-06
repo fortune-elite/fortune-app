@@ -19,7 +19,7 @@ const MenuBar = () => {
           <AiOutlineMenu className='right-menu' onClick = {showMenuBar}/>
           <div className={`MenuBar ${menuBar && 'active'}`} onClick={showMenuBar}>
               <button><AiFillCloseCircle/></button>
-              <ul>
+              <ul className ='drop'>
                 <li>Logout</li>
                 <li>Contact</li>
                 <li>F & Q</li>

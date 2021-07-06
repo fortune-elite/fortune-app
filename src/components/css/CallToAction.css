@@ -37,7 +37,7 @@
 #email {
     border: none;
     background: transparent;
-    width: 67%;
+    width: 65%;
 }
 ::placeholder {
     color: white;
@@ -46,18 +46,19 @@
 
 .signing__up .input__div {
     background: rgb(110, 98, 240);
-    width: 100%;
+    width: 105%;
     height: 4.5rem;
     border-radius: 10px;
     font-weight: bolder;
 }
 
 .input__div button {
-    padding: 1.1rem 0.8rem;
+    padding: 01.1em 0.8rem;
     text-transform: uppercase;
     border-radius: 10px;
-    margin: 0.3rem;
+    margin: 0rem;
     border: none;
+    margin-top: 0.3rem;
 }
 /*.signing__up p {
     display: inline-block;
