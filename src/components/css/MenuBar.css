@@ -2,5 +2,31 @@
     position: absolute;
     right: 0;
     top: 0;
-    background: red;
+    background:rgb(113, 206, 212);
+    width: 0rem;
+    height: 0rem;
+    z-index: 3;
+    overflow: hidden;
+    transition: 900ms;
+
+}
+.MenuBar.active {
+    transition: 900ms;
+    width: 40%;
+    height: 40%;
+}
+
+.right-menu {
+    display: none
+}
+
+
+@media screen and (max-width:768px) {
+    .right-menu {
+        display: block;
+        position: absolute;
+        top: 2%;
+        right: 5%;
+        font-size: 1.5rem;
+    }
 }

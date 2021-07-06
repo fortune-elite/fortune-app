@@ -1,5 +1,4 @@
 header {
-    /*height: 8vh;*/
     background-color: var(--mainBackground);
 }
 .logo {
@@ -58,9 +57,7 @@ ul a:hover {
     
 }
 
-.right-menu {
-    display: none
-}
+
 .signup a {
    color: var(--mainBackground); 
 }
@@ -72,16 +69,10 @@ ul a:hover {
 
 
 @media screen and (max-width:768px) {
-    .right-menu {
-        display: block;
-        position: absolute;
-        top: 2%;
-        right: 5%;
-        font-size: 1.5rem;
-    }
     .right {
         display: none;
     }
+    
     .logo span {
         color: var(--DarkBlueColor) ;
         font-size: 1rem;
