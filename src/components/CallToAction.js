@@ -27,7 +27,9 @@ const CallToAction = () => {
                         <span>Get it on </span>
                         <span>Play Store</span>
                     </section>
+
                 </div>
+
             </section>
             <div className="signing__up">
                 <p className="input__p">Sign up for free.<br></br> Start investing<br></br> today</p>
