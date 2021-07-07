@@ -6,7 +6,7 @@ const Services = () => {
      <div className="services">
          <div>
             <i className ="lock fas fa-shield-alt"></i>
-            <h1 className = "">
+            <h1>
                     Your money is well protected
             </h1>
 
@@ -40,8 +40,8 @@ const Services = () => {
         </div>
             
          <div>
-            <button>
-                WHY FORTUNE
+            <button className="button-style">
+                WHY FORTUNE ?
             </button>
 
          </div>

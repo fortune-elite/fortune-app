@@ -1,31 +1,32 @@
 .services{
-    height: 60vh;
+    height: 110vh;
     background-color: var(--mainBackground);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     color: var(--BlackColor);
+    padding: 1% 10% 1% 10%;
+
 }
 
 .services h2{
     color: var(--BlackColor);
     font-weight: bolder;
-    margin-left: 30%;
+    margin-left: 35%;
 }
 
-.services p{
-    padding: 0 10% 0 10%;
-}
-.security{  
-    width:130px;
-    padding-left: 40%;
-    
+
+
+.services h1{
+    color: var(--DarkBlueColor);
+    font-weight: bolder;
 }
 
 .lock{
     color: var(--DarkBlueColor);
     font-size: 7rem;
+    margin-left: 12%;
 }
 
 .shape{
@@ -43,7 +44,10 @@
 .button-style{
   width:300px;
   height:80px;
- 
+  background-color: var(--BlackColor);
+  color: var(--mainBackground);
+  cursor: pointer;
+  border: none;
 }
 
 
@@ -56,21 +60,14 @@
         align-items: center;
         justify-content: space-evenly;
         color: var(--BlackColor);
+        padding: 1% 10% 1% 10%;
+
     }
     
     .services h2{
         color: var(--BlackColor);
         font-weight: bolder;
         margin-left: 30%;
-    }
-    
-    .services p{
-        padding: 0 10% 0 10%;
-    }
-    .security{  
-        width:130px;
-        padding-left: 40%;
-        
     }
     
     .lock{
@@ -93,7 +90,10 @@
     .button-style{
       width:300px;
       height:80px;
-     
+    background-color: var(--BlackColor);
+    color: var(--mainBackground);
+    cursor: pointer;
+    border: none;
     }
     
 
@@ -111,7 +111,7 @@
         align-items: center;
         justify-content: space-evenly;
         color: var(--BlackColor);
-        padding: 1% 1% 1% 10%;
+        padding: 1% 5% 1% 10%;
     }
     
     .services h2{
@@ -120,18 +120,10 @@
         margin-left: 10%;
     }
     
-    /* .services p{
-        padding: 0 10% 0 10%;
-    } */
-    .security{  
-        width:130px;
-        padding-left: 40%;
-        
-    }
-    
     .lock{
         color: var(--DarkBlueColor);
         font-size: 7rem;
+        margin-left: 20%;
     }
     
     .shape{
@@ -149,7 +141,10 @@
     .button-style{
       width:300px;
       height:80px;
-     
+  background-color: var(--BlackColor); 
+  color: var(--mainBackground);
+  cursor: pointer;
+  border: none;
     }
     
 
