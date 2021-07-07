@@ -58,6 +58,7 @@
     margin: 0rem;
     border: none;
     margin-top: 0.3rem;
+    cursor: pointer;
 }
 
 @media screen and (max-width:1024px){
@@ -123,13 +124,14 @@
         border: none;
         width: 20vw;
         height: 4vh;
+        cursor: pointer;
     }
 }
 
 
 @media screen and (max-width:480px){
     .CallToAction {
-        height: 170vh;
+        height: 180vh;
         background-color: var(--mainBackground);
         text-align: center;
         padding:1rem 2rem;
@@ -150,9 +152,10 @@
         background: var(--DarkBlueColor);
         width: 100%;
         padding: 3rem;
-        display: grid;
+        display: flex;
         align-items: center;
-        grid-template-columns: 30% 70%;
+        justify-content: space-evenly;
+        flex-direction: column;
         border-radius: 10px;
     }
     
@@ -167,15 +170,17 @@
     .placeholder{
         color: var(--mainBackground);
         background-color: rgb(110, 98, 240);
-        height: 5vh;
-        width: 40vw;
+        height: 10vh;
+        width: 80vw;
         border: none;
+        border-radius: 10px;
+        text-align: center;
     }
     
     .signing__up {
         background: var(--DarkBlueColor);
-        width: 85vw;
-        height: 19vh;
+        width: 90vw;
+        height: 65vh;
         border-radius: 10px;
         font-weight: bolder;
     }
@@ -188,7 +193,14 @@
         border-radius: 10px;
         margin: 0rem 0 0 0rem ;
         border: none;
-        width: 20vw;
-        height: 4vh;
+        width: 50vw;
+        height: 7vh;
+        cursor: pointer;
+    }
+
+    .btn__Create-Account{
+        width: 75vw;
+        height: 15vh;
+
     }
 }

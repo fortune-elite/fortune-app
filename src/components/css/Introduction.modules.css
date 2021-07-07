@@ -224,13 +224,16 @@
     }
     
     .btn__create-account {
+        width: 70vw;
+        height: 8vh;
         border: none;
+        border-radius: 5px;
         margin: 1.5rem 0;
         align-items: center;
         color:var(--mainBackground);
         background-color: var(--DarkBlueColor);
         padding: 15px 20px;
-        font-size: 20px;
+        font-size: 25px;
         cursor: pointer;
     }
     
