@@ -1,10 +1,11 @@
-import React from "react";
 import './css/CallToAction.css'
 import './css/Introduction.modules.css'
+
+
 const CallToAction = () => {
     return (
         <div className="CallToAction">
-            <h2>1,500,000+ customers</h2><br></br><br></br>
+            <h2>1,500,000+ customers</h2>
             <p>Since launch in 2021, over 1,000,000 people<br></br> have installed and used Fortune to manage<br></br> their money better, invest to avoid over-spending,<br></br> to reach their target goals and mindful of how they spend</p>
             <br></br>
             <button className="btn__create-account">Create A Free Account</button>
