@@ -1,5 +1,6 @@
-
 .CallToAction {
+    height: 150vh;
+    background-color: var(--mainBackground);
     text-align: center;
     padding:4rem 6rem;
     font-weight: 700;
@@ -15,9 +16,9 @@
 .CallToAction p {
     color: rgb(105, 104, 104);
 }
-
 .signing__up {
     background: var(--DarkBlueColor);
+    width: 100%;
     padding: 3rem;
     display: grid;
     align-items: center;
@@ -28,36 +29,38 @@
 .signing__up .input__p {
     width: 100%;
     text-align: start;
-    font-size: 27px;
+    font-size: 1.1rem;
     padding: 0.5rem;
-    color: white;
+    color: var(--mainBackground);
 }
 
-#email {
+.placeholder{
+    color: var(--mainBackground);
+    background-color: rgb(110, 98, 240);
+    height: 10vh;
+    width: 40vw;
     border: none;
-    background: transparent;
-    width: 65%;
-}
-::placeholder {
-    color: white;
-    font-size: 25px;
+    text-align: center;
 }
 
 .signing__up {
-    background: rgb(110, 98, 240);
-    width: 105%;
-    height: 4.5rem;
+    background: var(--DarkBlueColor);
+    width: 85vw;
+    height: 45vh;
     border-radius: 10px;
     font-weight: bolder;
 }
+
+
 
 .input__div button {
     padding: 01.1em 0.8rem;
     text-transform: uppercase;
     border-radius: 10px;
-    margin: 0rem;
+    margin: 0rem 0 0 0rem ;
     border: none;
-    margin-top: 0.3rem;
+    width: 20vw;
+    height:10vh;
     cursor: pointer;
 }
 
@@ -198,9 +201,5 @@
         cursor: pointer;
     }
 
-    .btn__Create-Account{
-        width: 75vw;
-        height: 15vh;
-
-    }
+    
 }
