@@ -18,7 +18,7 @@ const Services = () => {
                     </h1>
               
 
-                <div className = "mt-6 text-center  ">
+                <div className = "mt-4 text-center  ">
                     <h1 > 
                        <IconContext.Provider  value = {{size:"0.6em", color:"black"}}  >
                           <BsFillSquareFill/>
