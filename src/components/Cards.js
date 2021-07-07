@@ -2,9 +2,9 @@ import "./css/Card.modules.css"
 
 
 const Card = () => {
-    return ( 
+    return (  
         <div className="cards">
-            <div className="container">
+            <div className="contain">
                 <div className="cardBlue">
                     <div className="p">
                         Create an account with us within 2-3 minutes for FREE
