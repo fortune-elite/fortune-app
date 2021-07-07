@@ -43,7 +43,7 @@
     font-size: 25px;
 }
 
-.signing__up .input__div {
+.signing__up {
     background: rgb(110, 98, 240);
     width: 105%;
     height: 4.5rem;
@@ -62,7 +62,7 @@
 
 @media screen and (max-width:1024px){
     .CallToAction {
-        height: 100vh;
+        height: 70vh;
         background-color: var(--mainBackground);
         text-align: center;
         padding:4rem 6rem;
@@ -73,7 +73,6 @@
     .CallToAction h2 {
         font-size: 1.5rem;
         font-weight: bold;
-        font-family: "Kanit";
         letter-spacing: 2px;
     }
     
@@ -98,42 +97,42 @@
         color: var(--mainBackground);
     }
     
-    #email {
+    .placeholder{
+        color: var(--mainBackground);
+        background-color: rgb(110, 98, 240);
+        height: 5vh;
+        width: 40vw;
         border: none;
-        background: transparent;
-        width: 65%;
-    }
-    ::placeholder {
-        color:var(--mainBackground);
-        font-size: 25px;
     }
     
-    .signing__up .input__div {
-        background: rgb(110, 98, 240);
-        width: 50vw;
-        height: 4.5rem;
+    .signing__up {
+        background: var(--DarkBlueColor);
+        width: 85vw;
+        height: 19vh;
         border-radius: 10px;
         font-weight: bolder;
     }
 
-    .input__div{
-        margin:1rem 0 0 1rem;
-    }
+
     
     .input__div button {
         padding: 01.1em 0.8rem;
         text-transform: uppercase;
         border-radius: 10px;
-        margin: 0rem 0 0rem 18rem ;
+        margin: 0rem 0 0 0rem ;
         border: none;
+        width: 20vw;
+        height: 4vh;
     }
 }
 
 
 @media screen and (max-width:480px){
     .CallToAction {
+        height: 170vh;
+        background-color: var(--mainBackground);
         text-align: center;
-        padding:4rem 6rem;
+        padding:1rem 2rem;
         font-weight: 700;
         
     }
@@ -141,7 +140,6 @@
     .CallToAction h2 {
         font-size: 1.5rem;
         font-weight: bold;
-        font-family: "Kanit";
         letter-spacing: 2px;
     }
     
@@ -150,6 +148,7 @@
     }
     .signing__up {
         background: var(--DarkBlueColor);
+        width: 100%;
         padding: 3rem;
         display: grid;
         align-items: center;
@@ -160,35 +159,36 @@
     .signing__up .input__p {
         width: 100%;
         text-align: start;
-        font-size: 27px;
+        font-size: 1.1rem;
         padding: 0.5rem;
-        color: white;
+        color: var(--mainBackground);
     }
     
-    #email {
+    .placeholder{
+        color: var(--mainBackground);
+        background-color: rgb(110, 98, 240);
+        height: 5vh;
+        width: 40vw;
         border: none;
-        background: transparent;
-        width: 65%;
-    }
-    ::placeholder {
-        color: white;
-        font-size: 25px;
     }
     
-    .signing__up .input__div {
-        background: rgb(110, 98, 240);
-        width: 105%;
-        height: 4.5rem;
+    .signing__up {
+        background: var(--DarkBlueColor);
+        width: 85vw;
+        height: 19vh;
         border-radius: 10px;
         font-weight: bolder;
     }
+
+
     
     .input__div button {
         padding: 01.1em 0.8rem;
         text-transform: uppercase;
         border-radius: 10px;
-        margin: 0rem;
+        margin: 0rem 0 0 0rem ;
         border: none;
-        margin-top: 0.3rem;
+        width: 20vw;
+        height: 4vh;
     }
 }
