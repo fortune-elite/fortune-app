@@ -8,7 +8,7 @@ const Ease = () => {
                     <div className="h2">3 ways to reach your target goals </div>
                 </div>
                 <div>
-                    <h3>Custom Fixed Savings </h3>
+                     <h3>Custom Fixed Savings </h3>
                     <p>Lock away your money for a fixed duration with no access to it until maturity Date </p>
                 </div>
                 <div>
