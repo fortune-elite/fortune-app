@@ -1,11 +1,22 @@
-.security{
+.services{
+    height: 100vh;
+    background-color: var(--mainBackground);
+}
+
+
+.security{  
     width:130px;
     padding-left: 40%;
     
 }
 
+.lock{
+    color: var(--DarkBlueColor);
+    font-size: 1rem;
+}
+
 .shape{
-    color:black;  
+    color:var(--BlackColor);  
 }
 
 .mt-5 {
@@ -22,5 +33,23 @@
  
 }
 
+
+@media screen and (max-width:1024px){
+
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+
+
+}
 
 
