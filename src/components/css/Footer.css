@@ -1,0 +1,11 @@
+.footer {
+    text-align: center;
+    padding:5rem;
+    position: relative;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 2%;
+    left: 35%;
+}

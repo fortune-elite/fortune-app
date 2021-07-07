@@ -7,6 +7,7 @@ import CallToAction from './components/CallToAction'
 import Services from './components/sevices'
 import MenuBar from './components/MenuBar'
 import CompanyLinks from './components/CompanyLinks'  
+import Footer from './components/Footer'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Advertise/>
       <CallToAction/>
       <CompanyLinks/>
+      <Footer/>
     </div>
   );
 }
