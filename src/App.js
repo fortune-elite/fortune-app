@@ -6,7 +6,7 @@ import Advertise from './components/Advertise'
 import CallToAction from './components/CallToAction'
 import Services from './components/sevices'
 import MenuBar from './components/MenuBar'
-
+import CompanyLinks from './components/CompanyLinks'  
 
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
       <Services/>
       <Advertise/>
       <CallToAction/>
+      <CompanyLinks/>
     </div>
   );
 }

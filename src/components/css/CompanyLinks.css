@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 40% 30% 30%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+ }
+
+ .thisDiv1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    overflow: hidden;
+ }
+
+ .thisDiv11 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    overflow: hidden;
+ }
+
+ .thisDiv2 {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    overflow: hidden;
+ }
+ .thisDiv22 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    overflow: hidden;
+ }
+
+ .thisDiv3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    /*overflow: hidden;*/
+ }
+
+ .linksFeed {
+     font-size: 4rem;
+     margin-right: 2rem;
+ }
