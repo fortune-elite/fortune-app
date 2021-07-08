@@ -4,17 +4,63 @@
 }
 
 @media screen and (max-width:1024px){
-    Download{
+    .Download{
         height:40vh;
         background-color: var(--mainBackground);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Download h1{
+        color: var(--DarkBlueColor);
+        font-size: 1.3rem;
+        font-weight: bolder;
+    }   
+
+    .Download a {
+        color: var(--DarkBlueColor);
+        font-size: 1.3rem;
+        font-weight: bolder;
+    }
+
+    
+
+    .StarCard{
+        display: flex;
+        flex-direction:column;
+        padding: 1rem 1rem 1rem 1rem;
+        justify-content: space-evenly;
+        width: 48vw;
+        height: 25vh;
+        background-color: var(--mainBackground);
+        box-shadow: 0 4px 8px 0 var(--DarkBlueColor), 0 6px 20px 0 #FEFCFB;
+    }
+
+    .Download span{
+        font-size: 0.9rem;
+    }
+
+
+    .fa-star{
+        color: #F7B66D;
+        font-size: 1.7rem;
+    }
+
+    .Top{
+        display: flex;
+        justify-content: space-evenly;
     }
 
 }
 
 @media screen and (max-width:480px){
-    Download{
+    .Download{
         height:80vh;
         background-color: var(--mainBackground);
+        display: flex;
+        flex-direction: column;
     }
 
 
