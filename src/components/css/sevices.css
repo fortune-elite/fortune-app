@@ -104,7 +104,7 @@
 
 @media screen and (max-width:480px){
     .services{
-        height: 150vh;
+        height: 170vh;
         background-color: var(--mainBackground);
         display: flex;
         flex-direction: column;
