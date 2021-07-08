@@ -1,0 +1,22 @@
+.Download{
+    height:40vh;
+    background-color: var(--mainBackground);
+}
+
+@media screen and (max-width:1024px){
+    Download{
+        height:40vh;
+        background-color: var(--mainBackground);
+    }
+
+}
+
+@media screen and (max-width:480px){
+    Download{
+        height:80vh;
+        background-color: var(--mainBackground);
+    }
+
+
+
+}
