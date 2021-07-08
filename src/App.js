@@ -5,6 +5,7 @@ import Ease from './components/Ease'
 import Advertise from './components/Advertise'
 import CallToAction from './components/CallToAction'
 import Services from './components/sevices'
+import Wealth from './components/Wealth'
 import MenuBar from './components/MenuBar'
 import CompanyLinks from './components/CompanyLinks'  
 import Footer from './components/Footer'
@@ -19,6 +20,7 @@ function App() {
       <Card/>
       <Ease/>
       <Services/>
+      <Wealth/>
       <Advertise/>
       <CallToAction/>
       <CompanyLinks/>
