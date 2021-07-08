@@ -1,6 +1,31 @@
 .Wealth{
-    height: 80vh;
+    height: 110vh;
     background-color: var(--SkyBlueColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 2%;
+}
+
+.Wealth h1{
+    color:var(--DarkBlueColor);
+    font-weight: bolder;  
+}
+
+.Wealth h2{
+    color: var(--BlackColor);
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.Wealth button{
+    width: 15vw;
+    height: 8vh;
+    background-color: var(--BlackColor);
+    color: var(--mainBackground);
+    border: none;
+    cursor: pointer;
 }
 
 
