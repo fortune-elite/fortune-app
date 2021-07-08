@@ -63,7 +63,7 @@ const Download = () => {
                 <h1>Available on Apple Store</h1>
                 </div>
                 <div>
-                    <p>“The app is great, I havve been using it for a long time without having issues.”- Hassan, July, 2021</p>
+                    <p>“The app is great, I have been using it for a long time without having issues.”- Hassan, July, 2021</p>
                 </div>
                 <div>
                     <a>Download Now &gt; </a>
