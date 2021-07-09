@@ -64,6 +64,37 @@
     cursor: pointer;
 }
 
+.CallToAction .ios{
+    display: inline-block;
+    background-color: var(--BlackColor);
+    width: 11rem;
+    height: 18vh;
+    padding: 0.5rem;
+    color: var(--mainBackground);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.CallToAction .android {
+    display: inline-block;
+    background-color: var(--BlackColor);
+    width: 11rem;
+    height: 12vh;
+    padding: 0.5rem;
+    color: var(--mainBackground);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.CallToAction .fa-apple{
+    font-size: 2.5rem;
+}
+
+.CallToAction .fa-google-play{
+    font-size: 2.5rem;
+}
+
 @media screen and (max-width:1024px){
     .CallToAction {
         height: 70vh;
