@@ -255,7 +255,7 @@
     
     .cardDark:hover{
         cursor: pointer;
-        width: 16vw;
+        width: 86vw;
         height: 31vh;
         opacity: 0.8;
     
@@ -263,14 +263,14 @@
     
     .cardSky:hover{
         cursor: pointer;
-        width: 16vw;
+        width: 86vw;
         height: 31vh;
         opacity: 0.8;
     }
     
     .cardBlue:hover {
         cursor: pointer;
-        width: 16vw;
+        width: 86vw;
         height: 31vh;
         opacity: 0.8;
     }
