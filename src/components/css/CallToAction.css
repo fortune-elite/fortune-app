@@ -129,6 +129,35 @@
         height: 4vh;
         cursor: pointer;
     }
+    .CallToAction .ios{
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 12rem;
+        height: 5vh;
+        padding: 0.5rem;
+        color: var(--mainBackground);
+        border-radius: 10px;
+    }
+
+
+    .CallToAction .android {
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 10rem;
+        height: 5vh;
+        padding: 0.5rem;
+        color: var(--mainBackground);
+        border-radius: 10px;
+    }
+
+    .CallToAction .fa-apple{
+        font-size: 1.7rem;
+    }
+    
+    .CallToAction .fa-google-play{
+        font-size: 1.7rem;
+    }
+
 }
 
 

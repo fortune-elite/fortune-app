@@ -14,7 +14,7 @@
 
 @media screen and (max-width:1024px){
     .footer {
-        height: 100vh;
+        height: 20vh;
         background-color: var(--mainBackground);
         text-align: center;
         padding:5rem;
