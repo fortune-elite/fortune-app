@@ -98,6 +98,39 @@
         justify-content: space-evenly;
     }
 
+    .Download .ios{
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 9rem;
+        height: 4vh;
+        padding: 0.5rem;
+        color: var(--mainBackground);
+        border-radius: 10px;
+    }
+
+
+    .Download .android {
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 9rem;
+        height: 4vh;
+        padding: 0.5rem;
+        color: var(--mainBackground);
+        border-radius: 10px;
+    }
+
+    .Download .fa-apple{
+        font-size: 1.5rem;
+    }
+    
+    .Download .fa-google-play{
+        font-size: 1.5rem;
+    }
+
+
+
+
+
 }
 
 @media screen and (max-width:480px){

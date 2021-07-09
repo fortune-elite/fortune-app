@@ -134,7 +134,7 @@
 
 @media screen and (max-width:480px){
     .CallToAction {
-        height: 180vh;
+        height: 160vh;
         background-color: var(--mainBackground);
         text-align: center;
         padding:1rem 1rem;

@@ -89,7 +89,7 @@
 @media screen and (max-width:480px){
     .advertise {
         background-color: var(--mainBackground);
-        height: 150vh;
+        height: 140vh;
         display: flex;
         flex-direction: column;
         color: var(--BlackColor);

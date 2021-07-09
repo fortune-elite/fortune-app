@@ -38,17 +38,29 @@
 
 .download-app {
     
-    padding-bottom:3rem
+    padding-bottom:3rem;
 }
-.ios, .android {
+
+.introduction .ios{
     display: inline-block;
     background-color: var(--BlackColor);
-    width: 15rem;
-    height: 15vh;
+    width: 13rem;
+    height: 11vh;
     padding: 0.5rem;
     color: var(--mainBackground);
     border-radius: 10px;
-    cursor: pointer;
+}
+
+
+.introduction .android {
+    display: inline-block;
+    background-color: var(--BlackColor);
+    width: 13rem;
+    height: 11vh;
+    padding: 0.5rem;
+    color: var(--mainBackground);
+    border-radius: 10px;
+    
 
 }
 .ios {
@@ -139,10 +151,22 @@
         
         padding-bottom:3rem
     }
-    .ios, .android {
+    .introduction .ios{
         display: inline-block;
         background-color: var(--BlackColor);
-        width: 16rem;
+        width: 13rem;
+        height: 7vh;
+        padding: 0.5rem;
+        color: var(--mainBackground);
+        border-radius: 10px;
+    }
+
+
+    .introduction .android {
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 13rem;
+        height: 7vh;
         padding: 0.5rem;
         color: var(--mainBackground);
         border-radius: 10px;
@@ -265,6 +289,7 @@
         
     
     }
+
     .ios {
         margin-right: 2rem;
     }
