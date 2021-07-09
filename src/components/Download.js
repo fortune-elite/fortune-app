@@ -54,7 +54,7 @@ const Download = () => {
                         <i className ="fab fa-apple apple"></i>
                         </section>
                         <section>
-                            Download from <br></br>
+                            <span>Download from</span>
                             <span>Apple Store</span>
                         </section>
                     </div>

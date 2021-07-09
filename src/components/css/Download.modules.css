@@ -130,7 +130,7 @@
         flex-direction:column;
         padding: 1rem 1rem 1rem 1rem;
         justify-content: space-evenly;
-        width: 90vw;
+        width: 95vw;
         height: 40vh;
         background-color: var(--mainBackground);
         box-shadow: 0 4px 8px 0 var(--DarkBlueColor), 0 6px 20px 0 #FEFCFB;
@@ -143,12 +143,41 @@
 
     .fa-star{
         color: #F7B66D;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .Top{
         display: flex;
         justify-content: space-evenly;
+    }
+
+    .Download .ios{
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 8rem;
+        height: 8vh;
+        padding: 0.5rem;
+        color: var(--mainBackground);
+        border-radius: 10px;
+    }
+
+
+    .Download .android {
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 7rem;
+        height: 8vh;
+        padding: 0.5rem;
+        color: var(--mainBackground);
+        border-radius: 10px;
+    }
+
+    .Download .fa-apple{
+        font-size: 1.5rem;
+    }
+    
+    .Download .fa-google-play{
+        font-size: 1.5rem;
     }
 
 
