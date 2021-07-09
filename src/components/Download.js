@@ -33,7 +33,7 @@ const Download = () => {
 
                 </div>
                 <div>
-                    <a>Download Now &gt;</a>
+                    <a href="www.google.com">Download Now &gt;</a>
 
                 </div>  
             </div>
@@ -66,7 +66,7 @@ const Download = () => {
                     <p>“The app is great, I have been using it for a long time without having issues.”- Hassan, July, 2021</p>
                 </div>
                 <div>
-                    <a>Download Now &gt; </a>
+                    <a href="www.google.com">Download Now &gt; </a>
 
                 </div>  
 

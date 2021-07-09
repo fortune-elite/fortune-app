@@ -14,7 +14,7 @@ const Advertise = () => {
                     "Still my go-to-app for savings. The user interface wooms me to coming back every nw and then.Then the blog/newsletter. You guys are the best by all means. Great Interest and good support service"
                 </p>
                 <span>--  Aisha Yahyah</span><br></br>
-                <a href="#">Read More stories <AiOutlineRight/></a>
+                <a href="www.google.com">Read More stories <AiOutlineRight/></a>
             </div>
         </div>
     )

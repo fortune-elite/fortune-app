@@ -13,11 +13,11 @@ const Navbar = () => {
                 
             </div>
             <ul className="right">
-                <li><a href="#">Save</a></li>
-                <li><a href= "#">Invest</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href = "#">Login</a></li>
-                <li className="signup"><a href="#">Sign Up</a></li>
+                <li><a href="www.google.com">Save</a></li>
+                <li><a href= "www.google.com">Invest</a></li>
+                <li><a href="www.google.com">FAQs</a></li>
+                <li><a href = "www.google.com">Login</a></li>
+                <li className="signup"><a href="www.google.com">Sign Up</a></li>
                 
             </ul>
         </header>
