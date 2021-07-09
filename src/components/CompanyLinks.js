@@ -1,4 +1,3 @@
-import React from 'react';
 import './css/CompanyLinks.css';
 import {AiFillFacebook, AiFillInstagram, AiFillTwitterCircle} from 'react-icons/ai'
 

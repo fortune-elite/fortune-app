@@ -1,4 +1,6 @@
 .footer {
+    height: 100vh;
+    background-color: var(--mainBackground);
     text-align: center;
     padding:5rem;
     position: relative;
@@ -8,4 +10,36 @@
     position: absolute;
     bottom: 2%;
     left: 35%;
+} 
+
+@media screen and (max-width:1024px){
+    .footer {
+        height: 100vh;
+        background-color: var(--mainBackground);
+        text-align: center;
+        padding:5rem;
+        position: relative;
+    }
+    
+    .copyright {
+        position: absolute;
+        bottom: 2%;
+        left: 35%;
+    } 
+}
+
+@media screen and (max-width:480px){
+    .footer {
+        height: 80vh;
+        background-color: var(--mainBackground);
+        text-align: center;
+        padding:4rem;
+        position: relative;
+    }
+    
+    .copyright {
+        position: absolute;
+        bottom: 2%;
+        left: 5%;
+    } 
 }
