@@ -43,11 +43,12 @@
 .ios, .android {
     display: inline-block;
     background-color: var(--BlackColor);
-    width: 16rem;
+    width: 15rem;
+    height: 15vh;
     padding: 0.5rem;
     color: var(--mainBackground);
     border-radius: 10px;
-    
+    cursor: pointer;
 
 }
 .ios {
@@ -194,7 +195,7 @@
 
 @media screen and (max-width:480px){
     .introduction {
-        height: 80vh;
+        height: 90vh;
         display: block;
         margin: 5% 4% 0 4%;
     
@@ -241,10 +242,23 @@
         
         padding-bottom:3rem
     }
-    .ios, .android {
+
+    .introduction .ios{
         display: inline-block;
         background-color: var(--BlackColor);
-        width: 16rem;
+        width: 13rem;
+        height: 10vh;
+        padding: 0.5rem;
+        color: var(--mainBackground);
+        border-radius: 10px;
+    }
+
+
+    .introduction .android {
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 13rem;
+        height: 10vh;
         padding: 0.5rem;
         color: var(--mainBackground);
         border-radius: 10px;
@@ -285,12 +299,12 @@
         font-weight: 500;
     }
     
-    .fa-apple{
-        font-size: 3.0rem;
+     .introduction .fa-apple{
+        font-size: 2.0rem;
     }
     
-    .fa-google-play{
-        font-size: 3.0rem;
+    .introduction .fa-google-play{
+        font-size: 2.0rem;
     }
 
 

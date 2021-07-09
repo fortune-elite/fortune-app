@@ -15,7 +15,7 @@ const Introduction = () => {
                     <i className ="fab fa-apple apple"></i>
                     </section>
                     <section>
-                        Download from <br></br>
+                        Download from
                         <span>Apple Store</span>
                     </section>
                 </div>
