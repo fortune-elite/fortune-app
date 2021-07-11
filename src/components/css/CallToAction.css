@@ -64,6 +64,10 @@
     cursor: pointer;
 }
 
+::placeholder {
+    color: white;
+}
+
 .CallToAction .ios{
     display: inline-block;
     background-color: var(--BlackColor);
@@ -194,11 +198,12 @@
 
 @media screen and (max-width:480px){
     .CallToAction {
-        height: 160vh;
+        height: 150vh;
         background-color: var(--mainBackground);
         text-align: center;
-        padding:1rem 1rem;
+        padding:0rem 1rem;
         font-weight: 700;
+        font-size: 1rem;
         
     }
     
@@ -206,27 +211,31 @@
         font-size: 1.5rem;
         font-weight: bold;
         letter-spacing: 2px;
+        margin-bottom: 0.5rem;
     }
     
     .CallToAction p {
         color: rgb(105, 104, 104);
+        font-size: 0.6rem;
+        line-height: 1.5rem;
     }
     .signing__up {
         background: var(--DarkBlueColor);
         width: 100%;
-        padding:1rem;
+        height: 30%;
+        padding: 40%  0.5rem;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
         flex-direction: column;
         border-radius: 10px;
     }
     
     .signing__up .input__p {
         width: 100%;
-        text-align: start;
-        font-size: 1.1rem;
-        padding: 0.5rem;
+        text-align: center;
+        font-size: 1rem;
+        padding: 0.2rem;
         color: var(--mainBackground);
     }
     
@@ -239,6 +248,7 @@
         border-radius: 10px;
         text-align: center;
     }
+
     
     .signing__up {
         background: var(--DarkBlueColor);
@@ -254,9 +264,9 @@
         padding: 01.1em 0.8rem;
         text-transform: uppercase;
         border-radius: 10px;
-        margin: 0rem 0 0 0rem ;
+        margin: 0.5rem 0 0 0rem ;
         border: none;
-        width: 50vw;
+        width: 80vw;
         height: 7vh;
         cursor: pointer;
     }
