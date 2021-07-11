@@ -45,10 +45,11 @@
 
 .signing__up {
     background: var(--DarkBlueColor);
-    width: 85vw;
+    width: 78vw;
     height: 45vh;
     border-radius: 10px;
     font-weight: bolder;
+    display: inline-block;
 }
 
 
@@ -59,9 +60,10 @@
     border-radius: 10px;
     margin: 0rem 0 0 0rem ;
     border: none;
-    width: 20vw;
+    width: 17vw;
     height:10vh;
     cursor: pointer;
+    display: inline-block;
 }
 
 ::placeholder {
