@@ -13,6 +13,10 @@
     font-weight: bolder;  
 }
 
+.Wealth p{
+    font-size: 1.1rem;
+}
+
 .Wealth h2{
     color: var(--BlackColor);
     font-weight: bold;
@@ -38,6 +42,10 @@
         justify-content: space-evenly;
         padding-left: 10%;
         padding-right: 2%;
+    }
+
+    .Wealth p{
+        font-size: 1rem;
     }
 
     .Wealth h1{
@@ -71,6 +79,10 @@
         justify-content: space-evenly;
         padding-left: 10%;
         padding-right: 2%;
+    }
+
+    .Wealth p{
+        font-size: 0.9rem;
     }
 
     .Wealth h1{
