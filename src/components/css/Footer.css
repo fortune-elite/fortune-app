@@ -26,11 +26,15 @@
         bottom: 2%;
         left: 35%;
     } 
+
+    .footer p{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width:480px){
     .footer {
-        height: 70vh;
+        height: 55vh;
         background-color: var(--mainBackground);
         text-align: center;
         padding:4rem;
@@ -42,4 +46,8 @@
         bottom: 2%;
         left: 5%;
     } 
+
+    .footer p{
+        font-size: 0.9rem;
+    }
 }

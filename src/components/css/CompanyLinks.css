@@ -12,6 +12,10 @@
 
  }
 
+ .container p{
+   font-size: 1.1rem;
+}
+
  .thisDiv1 {
     grid-column-start: 1;
     grid-row-start: 1;
@@ -56,6 +60,10 @@
        padding-left: 2rem;
 
     }
+
+    .container p{
+      font-size: 1.1rem;
+   }
    
     .thisDiv1 {
        grid-column-start: 1;
