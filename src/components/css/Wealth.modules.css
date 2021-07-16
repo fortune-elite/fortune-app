@@ -35,7 +35,7 @@
 
 @media screen and (max-width:1024px){
     .Wealth{
-        height: 60vh;
+        height: 50vh;
         background-color: var(--SkyBlueColor);
         display: flex;
         flex-direction: column;
