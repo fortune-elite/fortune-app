@@ -246,7 +246,7 @@
         text-align: center;
         color:var(--BlackColor);
         font-weight: 600;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
     
     .btn__create-account {
@@ -272,7 +272,7 @@
         display: inline-block;
         background-color: var(--BlackColor);
         width: 13rem;
-        height: 11vh;
+        height: 10vh;
         padding: 0.5rem;
         color: var(--mainBackground);
         border-radius: 10px;
@@ -282,8 +282,8 @@
     .introduction .android {
         display: inline-block;
         background-color: var(--BlackColor);
-        width: 13rem;
-        height: 11vh;
+        width: 11rem;
+        height: 10vh;
         padding: 0.5rem;
         color: var(--mainBackground);
         border-radius: 10px;
@@ -326,11 +326,11 @@
     }
     
      .introduction .fa-apple{
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
     
     .introduction .fa-google-play{
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
 
 
