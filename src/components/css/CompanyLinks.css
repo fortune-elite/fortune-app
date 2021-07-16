@@ -45,7 +45,7 @@
 @media screen and (max-width:1024px){
    .container {
       background-color: var(--mainBackground);
-      height: 40vh;
+      height: 35vh;
        display: grid;
        grid-template-columns: 20% 20% 20% 20%;
        grid-template-rows: 40% 30% 30%;
