@@ -60,7 +60,7 @@
     border-radius: 10px;
     margin: 0rem 0 0 0rem ;
     border: none;
-    width: 17vw;
+    width: 12vw;
     height:10vh;
     cursor: pointer;
     display: inline-block;
@@ -268,8 +268,8 @@
         border-radius: 10px;
         margin: 0.5rem 0 0 0rem ;
         border: none;
-        width: 80vw;
-        height: 7vh;
+        width: 40vw;
+        height: 6vh;
         cursor: pointer;
     }
 
