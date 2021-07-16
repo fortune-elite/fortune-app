@@ -36,7 +36,7 @@ const CallToAction = () => {
                 <div className="input__div">
                     <input  className="placeholder" type="text" placeholder="Your email..."
                     />
-                    <button>signup</button>
+                    <button>Sign Up</button>
                 </div>
             </div>
         </div>

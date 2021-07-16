@@ -56,7 +56,6 @@
 
 .input__div button {
     padding: 01.1em 0.8rem;
-    text-transform: uppercase;
     border-radius: 10px;
     margin: 0rem 0 0 0rem ;
     border: none;
@@ -158,7 +157,6 @@
     
     .input__div button {
         padding: 01.1em 0.8rem;
-        text-transform: uppercase;
         border-radius: 10px;
         margin: 0rem 0 0 0rem ;
         border: none;
@@ -264,7 +262,6 @@
     
     .input__div button {
         padding: 01.1em 0.8rem;
-        text-transform: uppercase;
         border-radius: 10px;
         margin: 0.5rem 0 0 0rem ;
         border: none;
