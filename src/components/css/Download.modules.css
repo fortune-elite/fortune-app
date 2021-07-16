@@ -19,7 +19,9 @@
     font-weight: bolder;
 }
 
-
+.Download p{
+    font-size: 1.1rem;
+}
 
 .StarCard{
     display: flex;
@@ -96,6 +98,10 @@
         color: var(--DarkBlueColor);
         font-size: 1.3rem;
         font-weight: bolder;
+    }
+
+    .Download p{
+        font-size: 1.1rem;
     }
 
     
@@ -184,7 +190,9 @@
         font-weight: bolder;
     }
 
-    
+    .Download p{
+        font-size: 0.9rem;
+    }
 
     .StarCard{
         display: flex;
