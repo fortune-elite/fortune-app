@@ -109,6 +109,6 @@
     .Ease p{
         color: var(--BlackColor);
         font-weight: bold;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
