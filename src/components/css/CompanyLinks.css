@@ -92,7 +92,7 @@
 @media screen and (max-width:480px){
    .container {
       background-color: var(--mainBackground);
-      height: 90vh;
+      height: 75vh;
       display: grid;
       grid-template-columns: 20% 20% 20% 20%;
       grid-template-rows: 40% 30% 30%;
@@ -104,16 +104,23 @@
       
    }
 
+   .container p{
+      font-size: 0.9rem;
+   }
+
     .thisDiv1 {
        grid-column-start: 1;
        grid-row-start: 1;
     }
+
+    
    
     .thisDiv11 {
        grid-column-start: 1;
        grid-row-start: 2;
     }
-   
+
+  
     .thisDiv2 {
        grid-column-start: 4;
        grid-row-start: 1;
