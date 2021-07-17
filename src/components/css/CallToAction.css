@@ -266,8 +266,9 @@
         margin: 0.5rem 0 0 0rem ;
         border: none;
         width: 40vw;
-        height: 6vh;
+        height: 7vh;
         cursor: pointer;
+        text-align: center;
     }
 
     .CallToAction .ios{
