@@ -49,12 +49,12 @@
 @media screen and (max-width:1024px){
    .container {
       background-color: var(--mainBackground);
-      height: 35vh;
+      height: 31vh;
        display: grid;
        grid-template-columns: 20% 20% 20% 20%;
        grid-template-rows: 40% 30% 30%;
-       grid-column-gap: 20px;
-       grid-row-gap: 20px;
+       grid-column-gap: 5px;
+       grid-row-gap: 5px;
        justify-items: stretch;
        align-items: stretch;
        padding-left: 2rem;
