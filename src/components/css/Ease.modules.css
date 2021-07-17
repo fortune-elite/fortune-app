@@ -37,7 +37,7 @@
 
 @media screen and (max-width:1024px){
     .Ease{
-        height:40vh ;
+        height:35vh ;
         background-color: var(--SkyBlueColor);
         display: flex;
         flex-direction: column;
