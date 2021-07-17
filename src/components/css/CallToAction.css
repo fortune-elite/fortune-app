@@ -275,7 +275,7 @@
         display: inline-block;
         background-color: var(--BlackColor);
         width: 12rem;
-        height: 8vh;
+        height: 10vh;
         padding: 0.5rem;
         color: var(--mainBackground);
         border-radius: 10px;
@@ -286,7 +286,7 @@
         display: inline-block;
         background-color: var(--BlackColor);
         width: 10rem;
-        height: 8vh;
+        height: 9vh;
         padding: 0.5rem;
         color: var(--mainBackground);
         border-radius: 10px;
