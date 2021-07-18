@@ -32,6 +32,21 @@
     }
 }
 
+@media screen and (max-width:768px){
+    .footer{
+        height: 25vh;
+        padding:2rem;
+
+    }
+
+    .copyright {
+        position: absolute;
+        bottom: 2%;
+        left: 25%;
+    } 
+
+}
+
 @media screen and (max-width:480px){
     .footer {
         height: 55vh;
