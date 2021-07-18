@@ -70,6 +70,14 @@
 }
 
 
+@media screen and (max-width:768px){
+    .Wealth{
+        height:  60vh   
+    }
+
+}
+
+
 @media screen and (max-width:480px){
     .Wealth{
         height: 110vh;
