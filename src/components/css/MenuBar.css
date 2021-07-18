@@ -55,4 +55,51 @@
         right: 5%;
         font-size: 1.5rem;
     }
+    .MenuBar {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background:var(--mainBackground);
+        width: 0rem;
+        height: 40%;
+        z-index: 3;
+        overflow: hidden;
+        transition: 1100ms;
+    
+    }
+    
+    .MenuBar.active {
+        transition: 1100ms;
+        width: 100%;
+    }
+    
+    .drop {
+        text-align: center;
+    }
+    
+    .drop li {
+        display: block;
+        text-align: start;
+        color: var(--DarkBlueColor);
+        font-size: 20px;
+        padding: 0.5rem;
+    
+    }
+    
+    .MenuBar button {
+        padding-top: 3%;
+        margin-left:70% ;
+        height: 4rem;
+        border: none;
+        background: transparent;
+    }
+    
+    .closeButton {
+        font-size: 2rem;
+    }
+   
+    
+    
+    
+    
 }
