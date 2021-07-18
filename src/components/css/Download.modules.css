@@ -167,6 +167,37 @@
 
 }
 
+@media screen and (max-width:768px){
+    .Download{
+        height: 50vh;
+    }
+
+    
+    .StarCard{
+        display: flex;
+        flex-direction:column;
+        padding: 1rem 1rem 1rem 1rem;
+        justify-content: space-evenly;
+        width: 48vw;
+        height: 30vh;
+        background-color: var(--mainBackground);
+        box-shadow: 0 4px 8px 0 var(--DarkBlueColor), 0 6px 20px 0 #FEFCFB;
+    }
+
+    .Download span{
+        font-size: 0.7rem;
+    }
+
+
+    .fa-star{
+        color: #F7B66D;
+        font-size: 1.3rem;
+    }
+
+
+}
+
+
 @media screen and (max-width:480px){
     .Download{
         height:100vh;
