@@ -22,14 +22,14 @@
 
 .drop li {
     display: block;
-    text-align: start;
-    color: rgb(17, 31, 34);
+    text-align: center;
+    color: var(--DarkBlueColor);
     font-size: 20px;
     padding: 0.5rem;
 
 }
 
-.MenuBar button {
+.MenuBar .but{
     padding-top: 3%;
     margin-left:70% ;
     height: 4rem;
@@ -42,6 +42,15 @@
 }
 .right-menu {
     display: none
+}
+
+.btn-blue{
+    width: 28vw;
+    text-align: center;
+    background-color:var(--DarkBlueColor);
+    border-radius:5px ;
+    border-spacing: 1rem;
+    padding: 0.2rem;
 }
 
 
@@ -73,22 +82,19 @@
         width: 100%;
     }
     
-    .drop {
-        text-align: center;
-    }
     
-    .drop li {
+    .drop ul {
         display: block;
-        text-align: start;
+        text-align: center;
         color: var(--DarkBlueColor);
         font-size: 20px;
         padding: 0.5rem;
     
     }
     
-    .MenuBar button {
+    .MenuBar .but {
         padding-top: 3%;
-        margin-left:70% ;
+        margin-left:90% ;
         height: 4rem;
         border: none;
         background: transparent;
@@ -99,7 +105,14 @@
     }
    
     
-    
+    .btn-blue{
+        width: 28vw;
+        text-align: center;
+        background-color:var(--DarkBlueColor);
+        border-spacing: 1rem;
+        padding: 0.2rem;
+        color: var(--mainBackground);
+    }
     
     
 }
