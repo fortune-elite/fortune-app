@@ -97,6 +97,14 @@
    
 
 }
+@media screen and (max-width:768px){
+   .container{
+      height: 45vh;
+   }
+
+}
+
+
 @media screen and (max-width:480px){
    .container {
       background-color: var(--mainBackground);
