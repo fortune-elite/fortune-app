@@ -110,8 +110,10 @@
         text-align: center;
         background-color:var(--DarkBlueColor);
         border-spacing: 1rem;
+        border: none;
         padding: 0.2rem;
         color: var(--mainBackground);
+        cursor: pointer;
     }
     
     
