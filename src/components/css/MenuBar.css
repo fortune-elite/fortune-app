@@ -2,18 +2,18 @@
     position: absolute;
     right: 0;
     top: 0;
-    background:rgb(113, 206, 212);
+    background:var(--mainBackground);
     width: 0rem;
     height: 40%;
-    /*z-index: 3;*/
+    z-index: 3;
     overflow: hidden;
-    transition: 900ms;
+    transition: 1100ms;
 
 }
 
 .MenuBar.active {
-    transition: 900ms;
-    width: 50%;
+    transition: 1100ms;
+    width: 100%;
 }
 
 .drop {
@@ -43,6 +43,8 @@
 .right-menu {
     display: none
 }
+
+
 
 
 @media screen and (max-width:768px) {
