@@ -190,6 +190,89 @@
 
 } 
 
+@media screen and (max-width:768px){
+    .cards{
+        height: 30vh;
+        background-color: var(--mainBackground);
+        font-size: 0.8rem;
+    }
+    
+    .contain{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .cardSky{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 18vw;
+        padding: 1rem 1rem 1rem 1rem;
+        height: 17vh;
+        background-color: var(--DarkSkyBlue);
+        color: var(--mainBackground);
+        font-weight: bold;
+        box-shadow: 0 4px 8px 0 var(--DarkSkyBlue), 0 6px 20px 0 #FEFCFB;
+    
+    }
+    
+    .cardDark{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1rem 1rem 1rem 1rem;
+        width: 18vw;
+        height: 17vh;
+        background-color: var(--BlackColor);
+        color: var(--mainBackground);
+        font-weight: bold;
+        box-shadow: 0 4px 8px 0 var(--BlackColor), 0 6px 20px 0 #FEFCFB;
+    
+    
+    }
+    
+    .cardBlue{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1rem 1rem 1rem 1rem;
+        width: 18vw;
+        height: 17vh;
+        background-color: var(--DarkBlueColor);
+        color: var(--mainBackground);
+        font-weight: bold;
+        box-shadow: 0 4px 8px 0 var(--DarkBlueColor), 0 6px 20px 0 #FEFCFB;
+    
+    }
+    
+    .cardDark:hover{
+        cursor: pointer;
+        width: 19vw;
+        height: 18vh;
+        opacity: 0.8;
+    
+    }
+    
+    .cardSky:hover{
+        cursor: pointer;
+        width: 19vw;
+        height: 18vh;
+        opacity: 0.8;
+    }
+    
+    .cardBlue:hover {
+        cursor: pointer;
+        width: 19vw;
+        height: 18vh;
+        opacity: 0.8;
+    }
+    
+
+}
+
 @media screen and (max-width:480px){
     .cards{
         height: 200vh;
