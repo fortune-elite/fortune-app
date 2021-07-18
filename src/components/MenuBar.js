@@ -20,11 +20,11 @@ const MenuBar = () => {
           <div className={`MenuBar ${menuBar && 'active'}`} onClick={showMenuBar}>
               <button><AiFillCloseCircle className='closeButton'/></button>
               <ul className ='drop'>
-                <li>Logout</li>
-                <li>Contact</li>
-                <li>F & Q</li>
+                <li>Saves</li>
                 <li>Invest</li>
-                <button className="btn__create-account">Create A free Account</button>
+                <li>FAQs</li>
+                <li>Login</li>
+                <button className="btn-blue">Sign Up</button>
               </ul>
               
           </div>
