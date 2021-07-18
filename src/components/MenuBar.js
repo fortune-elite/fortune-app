@@ -24,6 +24,7 @@ const MenuBar = () => {
                 <li>Contact</li>
                 <li>F & Q</li>
                 <li>Invest</li>
+                <button className="btn__create-account">Create A free Account</button>
               </ul>
               
           </div>
