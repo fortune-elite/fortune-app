@@ -196,6 +196,40 @@
 }
 
 
+@media screen and (max-width:768px){
+    .CallToAction {
+        height: 70vh;
+        background-color: var(--mainBackground);
+        text-align: center;
+        padding:2rem 4rem;
+        font-weight: 700;
+    }
+
+    .CallToAction .ios{
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 12rem;
+        height: 8vh;
+        padding: 0.5rem;
+        color: var(--mainBackground);
+        border-radius: 10px;
+    }
+
+
+    .CallToAction .android {
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 10rem;
+        height: 8vh;
+        padding: 0.5rem;
+        color: var(--mainBackground);
+        border-radius: 10px;
+    }
+
+
+
+}
+
 @media screen and (max-width:480px){
     .CallToAction {
         height: 150vh;
