@@ -5,7 +5,7 @@ const Introduction = () => {
      <div className="introduction">
         <div className="introduction__upper">
             <h1 className= "introduction__title">Investing and Saving <br></br>in a better way</h1>
-            <section>
+            <section> 
                 Fortune helps customers to achieve their<br></br> monetary goals by helping them Save & <br></br>invest, Fissure bills, Obtaining a loan. <br></br>Control your money with spending<br></br> analytics
             </section>
             <button className="btn__create-account">Create A Free Account</button>

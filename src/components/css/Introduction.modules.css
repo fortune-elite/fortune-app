@@ -217,6 +217,40 @@
     }
 
 }
+@media screen and (max-width:768px){
+    .introduction {
+        height: 60vh;
+        display: block;
+        margin: 5% 14% 0 18%;
+    
+        text-align: center;
+        background-color: var(--mainBackground);
+    }
+    
+    .introduction .ios{
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 13rem;
+        height: 9vh;
+        padding: 0.5rem;
+        color: var(--mainBackground);
+        border-radius: 10px;
+    }
+
+
+    .introduction .android {
+        display: inline-block;
+        background-color: var(--BlackColor);
+        width: 13rem;
+        height: 9vh;
+        padding: 0.5rem;
+        color: var(--mainBackground);
+        border-radius: 10px;
+        
+    
+    }
+   
+}
 
 @media screen and (max-width:480px){
     .introduction {
