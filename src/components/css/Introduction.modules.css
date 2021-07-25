@@ -107,7 +107,6 @@
 
 @media screen and (max-width:1024px){
     .introduction {
-        height: 55vh;
         display: block;
         margin: 5% 14% 0 18%;
     
@@ -218,7 +217,6 @@
 }
 @media screen and (max-width:768px){
     .introduction {
-        height: 60vh;
         display: block;
         margin: 5% 14% 0 18%;
     
@@ -253,7 +251,6 @@
 
 @media screen and (max-width:480px){
     .introduction {
-        height: 90vh;
         display: block;
         margin: 5% 4% 0 4%;
     
