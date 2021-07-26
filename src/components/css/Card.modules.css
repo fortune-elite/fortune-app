@@ -136,6 +136,7 @@
         justify-content: space-evenly;
         align-items: center;
         width: 85vw;
+        height: 200px;
         margin: 1rem 1rem 1rem 1rem ;
         padding: 1rem 1rem 1rem 1rem;
         background-color: var(--DarkSkyBlue);
@@ -153,6 +154,7 @@
         margin: 1rem 1rem 1rem 1rem ;
         padding: 1rem 1rem 1rem 1rem;
         width: 85vw;
+        height: 200px;
         background-color: var(--BlackColor);
         color: var(--mainBackground);
         font-weight: bold;
@@ -169,6 +171,7 @@
         margin: 1rem 1rem 1rem 1rem;
         padding: 1rem 1rem 1rem 1rem;
         width: 85vw;
+        height: 200px;
         background-color: var(--DarkBlueColor);
         color: var(--mainBackground);
         font-weight: bold;
