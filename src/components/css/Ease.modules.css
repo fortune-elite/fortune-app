@@ -1,17 +1,19 @@
 .Ease{
-    height: 80vh;
     background-color: var(--SkyBlueColor);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 0 1rem;
+
 }
 
 
 .easecon{
     font-size: 5rem;
     margin-left: 25%;
-    margin-bottom: 1%;
+    margin-bottom: 1rem;
     color: var(--DarkBlueColor);
 }
 
@@ -19,6 +21,7 @@
     font-size: 1rem;
     font-weight:900;
     color: var(--DarkBlueColor);
+    margin-bottom: 1rem;
 }
 
 
@@ -26,6 +29,7 @@
     color: var(--DarkBlueColor);
     font-weight: bolder;
     margin-left: 30%;
+    margin-bottom:0.2rem;
     
 }
 
@@ -33,23 +37,15 @@
     color: var(--BlackColor);
     font-weight: bold;
     font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 @media screen and (max-width:1024px){
-    .Ease{
-        height:35vh ;
-        background-color: var(--SkyBlueColor);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    
     
     .easecon{
         font-size: 5rem;
         margin-left: 25%;
-        margin-bottom: 1%;
+        margin-bottom: 0.4rem;
         color: var(--DarkBlueColor);
     }
     
@@ -57,6 +53,7 @@
         font-size: 1rem;
         font-weight:900;
         color: var(--DarkBlueColor);
+        margin-bottom: 0.6rem;
     }
     
     
@@ -64,6 +61,7 @@
         color: var(--DarkBlueColor);
         font-weight: bolder;
         margin-left: 30%;
+        margin-bottom: 0.2rem;
         
     }
     
@@ -71,39 +69,28 @@
         color: var(--BlackColor);
         font-weight: bold;
         font-size: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
 
-@media screen and (max-width:768px){
-    .Ease{
-        height:40vh ;
-        background-color: var(--SkyBlueColor);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    
-    
-    
-}
+
 @media screen and (max-width:480px){
     .Ease{
-        height:110vh ;
         background-color: var(--SkyBlueColor);
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding: 1% 1% 1% 10%;
+        padding: 1rem 1rem 1rem 1rem;
+        margin: 1rem 0 1rem;
     }
     
     
     .easecon{
         font-size: 5rem;
         margin-left: 25%;
-        margin-bottom: 1%;
+        margin-bottom: 1rem;
         color: var(--DarkBlueColor);
     }
     
@@ -111,6 +98,7 @@
         font-size: 1rem;
         font-weight:900;
         color: var(--DarkBlueColor);
+        margin-bottom: 0.6rem;
     }
     
     
@@ -118,6 +106,7 @@
         color: var(--DarkBlueColor);
         font-weight: bolder;
         margin-left: 10%;
+        margin-bottom: 0.2rem;
         
     }
     
@@ -125,5 +114,7 @@
         color: var(--BlackColor);
         font-weight: bold;
         font-size: 0.8rem;
+        margin-bottom: 2rem;
     }
+
 }
