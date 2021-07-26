@@ -117,6 +117,7 @@
     .signing__up {
         background: var(--DarkBlueColor);
         width: 100%;
+        height: 300px;
         padding: 3rem;
         display: grid;
         align-items: center;
@@ -135,19 +136,11 @@
     .placeholder{
         color: var(--mainBackground);
         background-color: rgb(110, 98, 240);
-        height: 4vh;
+        height: 50px;
         width: 40vw;
         border: none;
     }
     
-    .signing__up {
-        background: var(--DarkBlueColor);
-        width: 85vw;
-        height: 19vh;
-        border-radius: 10px;
-        font-weight: bolder;
-    }
-
 
     
     .input__div button {
@@ -156,7 +149,7 @@
         margin: 0rem 0 0 0rem ;
         border: none;
         width: 20vw;
-        height: 4vh;
+        height: 50px;
         cursor: pointer;
     }
 
@@ -177,6 +170,7 @@
         padding:0rem 1rem;
         font-weight: 700;
         font-size: 1rem;
+        margin: 5rem 1rem 5rem 1rem;
         
     }
     
@@ -195,10 +189,11 @@
     .signing__up {
         background: var(--DarkBlueColor);
         width: 100%;
-        padding: 10%  0.5rem;
+        height: 280px;
+        padding: 1rem 1rem 1rem 1rem;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-direction: column;
         border-radius: 10px;
     }
@@ -214,7 +209,7 @@
     .placeholder{
         color: var(--mainBackground);
         background-color: rgb(110, 98, 240);
-        height: 35px;
+        height: 55px;
         width: 80vw;
         border: none;
         border-radius: 10px;
@@ -222,13 +217,6 @@
     }
 
     
-    .signing__up {
-        background: var(--DarkBlueColor);
-        width: 90vw;
-        border-radius: 10px;
-        font-weight: bolder;
-    }
-
 
     
     .input__div button {
@@ -237,7 +225,7 @@
         margin: 0.5rem 0 0 0rem ;
         border: none;
         width: 40vw;
-        height: 7vh;
+        height: 45px;
         cursor: pointer;
         text-align: center;
     }
