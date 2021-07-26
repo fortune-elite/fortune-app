@@ -85,14 +85,6 @@
         color:var(--BlackColor);  
     }
     
-    .mt-5 {
-        text-align: center;
-        padding: 2rem;
-    }
-    .mt-6{
-        margin-top:80px;
-    }
-    
     .button-style{
       width:300px;
       height:80px;

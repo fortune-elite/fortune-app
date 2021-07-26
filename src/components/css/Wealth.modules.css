@@ -1,5 +1,4 @@
 .Wealth{
-    height: 110vh;
     background-color: var(--SkyBlueColor);
     display: flex;
     flex-direction: column;
@@ -32,10 +31,13 @@
     cursor: pointer;
 }
 
+.mt-4{
+    margin-top:40px;
+}
+
 
 @media screen and (max-width:1024px){
     .Wealth{
-        height: 50vh;
         background-color: var(--SkyBlueColor);
         display: flex;
         flex-direction: column;
@@ -70,17 +72,8 @@
 }
 
 
-@media screen and (max-width:768px){
-    .Wealth{
-        height:  60vh   
-    }
-
-}
-
-
 @media screen and (max-width:480px){
     .Wealth{
-        height: 110vh;
         background-color: var(--SkyBlueColor);
         display: flex;
         flex-direction: column;
@@ -90,7 +83,7 @@
     }
 
     .Wealth p{
-        font-size: 0.9rem;
+        font-size: 0.9rem
     }
 
     .Wealth h1{
@@ -111,6 +104,10 @@
         color: var(--mainBackground);
         border: none;
         cursor: pointer;
+    }
+
+    .mt-4{
+        margin-top:40px;
     }
 
 }
