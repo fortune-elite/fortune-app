@@ -14,7 +14,7 @@ const Services = () => {
 
          <div>
              <h2>
-             <i className="fas fa-square"></i> Bank-Grade-Security
+             <i className="fas fa-square mt-4"></i> Bank-Grade-Security
              </h2>
             <p>
                 Our payment are secured by 256 bits SSL Security to ensure optimum security of your data electronically 
@@ -23,7 +23,7 @@ const Services = () => {
 
          <div>
             <h2>
-             <i className="fas fa-square"></i> Asset Under secure Watch
+             <i className="fas fa-square mt-4 "></i> Asset Under secure Watch
              </h2>
             <p>
                     Your savings is secured with us as we invest in low-risk financial instruments held on behalf of our customers by Meristem trustees, registered with the Securities and Exchange Commission(SEC)
@@ -32,7 +32,7 @@ const Services = () => {
 
          <div>
             <h2>
-             <i className="fas fa-square"></i> Fingerprint & Two-factor Authentication
+             <i className="fas fa-square mt-4"></i> Fingerprint & Two-factor Authentication
              </h2>
             <p>
                 Fingerprint and Two-factor Authentication by default on all fortune account to securely protect you from unauthorized access and impersonation.
@@ -40,7 +40,7 @@ const Services = () => {
         </div>
             
          <div>
-            <button className="button-style">
+            <button className="button-style mt-4">
                 WHY FORTUNE ?
             </button>
 

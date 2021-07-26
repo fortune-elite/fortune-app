@@ -1,5 +1,4 @@
 .services{
-    height: 110vh;
     background-color: var(--mainBackground);
     display: flex;
     flex-direction: column;
@@ -41,8 +40,8 @@
     text-align: center;
     padding: 2rem;
 }
-.mt-6{
-    margin-top:80px;
+.mt-4{
+    margin-top:40px;
 }
 
 .button-style{
@@ -57,7 +56,6 @@
 
 @media screen and (max-width:1024px){
     .services{
-        height: 50vh;
         background-color: var(--mainBackground);
         display: flex;
         flex-direction: column;
@@ -108,14 +106,6 @@
     
 }
 
-@media screen and (max-width:768px){
-    .services{
-        height: 70vh;
-        
-    }
-
-
-}
 
 
  
@@ -156,8 +146,8 @@
         text-align: center;
         padding: 2rem;
     }
-    .mt-6{
-        margin-top:80px;
+    .mt-4{
+        margin-top:40px;
     }
     
     .button-style{
