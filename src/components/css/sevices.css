@@ -111,7 +111,6 @@
  
 @media screen and (max-width:480px){
     .services{
-        height: 170vh;
         background-color: var(--mainBackground);
         display: flex;
         flex-direction: column;
@@ -135,7 +134,7 @@
     .lock{
         color: var(--DarkBlueColor);
         font-size: 7rem;
-        margin-left: 20%;
+        margin-left: 15%;
     }
     
     .shape{
