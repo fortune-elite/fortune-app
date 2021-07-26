@@ -154,6 +154,10 @@
        margin-bottom: 0.3rem;
 
     }
+    
+    .mt-4{
+       margin-top: 1rem;
+    }
    
     .linksFeed {
         font-size: 2rem;

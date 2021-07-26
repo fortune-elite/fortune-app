@@ -28,7 +28,7 @@ const CompanyLinks = () => {
                <p>Get a Loan</p>
            </div>
 
-           <div className="thisDiv22">
+           <div className="thisDiv22 mt-4">
                <h1>Legal</h1>
                <p>Terms</p>
                <p>Privacy</p>
