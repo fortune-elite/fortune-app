@@ -1,6 +1,5 @@
 .container {
    background-color: var(--mainBackground);
-   height: 85vh;
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     grid-template-rows: 40% 30% 30%;
@@ -49,7 +48,6 @@
 @media screen and (max-width:1024px){
    .container {
       background-color: var(--mainBackground);
-      height: 31vh;
        display: grid;
        grid-template-columns: 20% 20% 20% 20%;
        grid-template-rows: 40% 30% 30%;
@@ -97,18 +95,11 @@
    
 
 }
-@media screen and (max-width:768px){
-   .container{
-      height: 45vh;
-   }
-
-}
 
 
 @media screen and (max-width:480px){
    .container {
       background-color: var(--mainBackground);
-      height: 75vh;
       display: grid;
       grid-template-columns: 20% 20% 20% 20%;
       grid-template-rows: 40% 30% 30%;
