@@ -14,6 +14,7 @@
 
  .container p{
    font-size: 1.1rem;
+
 }
 
  .thisDiv1 {
@@ -119,6 +120,7 @@
     .thisDiv1 {
        grid-column-start: 1;
        grid-row-start: 1;
+       margin-bottom: 0.3rem;
     }
 
     
@@ -126,23 +128,31 @@
     .thisDiv11 {
        grid-column-start: 1;
        grid-row-start: 2;
+       margin-bottom: 0.3rem;
+
     }
 
   
     .thisDiv2 {
        grid-column-start: 4;
        grid-row-start: 1;
+       margin-bottom: 0.3rem;
+
     }
 
     .thisDiv22 {
        grid-column-start: 4;
        grid-row-start: 2;
+       margin-bottom: 0.3rem;
+
     }
    
     .thisDiv3 {
        grid-column-start: 1;
        grid-column-end: 4;
        grid-row-start: 3;
+       margin-bottom: 0.3rem;
+
     }
    
     .linksFeed {
