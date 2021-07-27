@@ -193,13 +193,13 @@
     }
     .lower-one {
        color:var(--DarkBlueColor);
-       font-size: 1.1rem;
+       font-size: 1.0rem;
        font-weight: 700;
     }
     .lower-two {
         color: var(--DarkBlueColor);
         opacity: 0.8;
-        font-size: 1.1rem;
+        font-size: 1.0rem;
         font-weight: 500;
     }
     
@@ -212,38 +212,7 @@
     }
 
 }
-@media screen and (max-width:768px){
-    .introduction {
-        display: block;
-        margin: 5% 14% 0 18%;
-    
-        text-align: center;
-        background-color: var(--mainBackground);
-    }
-    
-    .introduction .ios{
-        display: inline-block;
-        background-color: var(--BlackColor);
-        width: 13rem;
-        
-        padding: 0.5rem;
-        color: var(--mainBackground);
-        border-radius: 10px;
-    }
 
-
-    .introduction .android {
-        display: inline-block;
-        background-color: var(--BlackColor);
-        width: 13rem;
-        padding: 0.5rem;
-        color: var(--mainBackground);
-        border-radius: 10px;
-        
-    
-    }
-   
-}
 
 @media screen and (max-width:480px){
     .introduction {
