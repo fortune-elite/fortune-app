@@ -124,14 +124,14 @@
         text-align: center;
         background-color: var(--SkyBlueColor);
     
-        width: 60vw;
+        width: 70vw;
     
     }
     .introduction__upper section {
         text-align: center;
         color:var(--BlackColor);
         font-weight: 600;
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .btn__create-account {
@@ -141,7 +141,7 @@
         color:var(--mainBackground);
         background-color: var(--DarkBlueColor);
         padding: 15px 20px;
-        font-size: 20px;
+        font-size: 18px;
         cursor: pointer;
     }
     
@@ -193,13 +193,13 @@
     }
     .lower-one {
        color:var(--DarkBlueColor);
-       font-size: 1.3rem;
+       font-size: 1.1rem;
        font-weight: 700;
     }
     .lower-two {
         color: var(--DarkBlueColor);
         opacity: 0.8;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         font-weight: 500;
     }
     
